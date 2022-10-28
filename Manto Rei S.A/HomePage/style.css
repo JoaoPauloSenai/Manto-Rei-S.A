@@ -130,11 +130,6 @@ body {
 
 }
 
-.textdropdown {
-
-    font-family: 'Rubik', sans-serif;
-}
-
 #search {
 
     height: 40%;
@@ -144,7 +139,6 @@ body {
     font-size: 110%;
     font-family: 'Rubik', sans-serif;
     padding-left: 2%;
-
 
 }
 
@@ -181,8 +175,8 @@ input:focus {
 
     box-shadow: 2px 2 px 4px black;
     overflow: hidden;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 
 }
 
@@ -197,8 +191,8 @@ transform: translateX(0);
 #ImgCarroussel{
 
 object-fit: cover;
-height: 500px;
-width: 500px;
+height: 300px;
+width: 300px;
 
 }
 
