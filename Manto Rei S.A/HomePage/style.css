@@ -1,19 +1,23 @@
+*{
+    box-sizing: border-box;
+}
 
-html{
+
+html {
 
     height: 100%;
 
 }
 
-body{
+body {
 
     height: 100%;
     margin: 0px;
-    background-color:white
-
+    align-items: center;
+    background-color: white
 }
 
-#container{
+#container {
 
     height: 100%;
     background-color: white;
@@ -22,7 +26,8 @@ body{
     align-items: center;
 
 }
-#topo1{
+
+#topo1 {
 
     height: 15%;
     width: 100%;
@@ -30,7 +35,7 @@ body{
 
 }
 
-#topoesquerdo{
+#topoesquerdo {
 
     height: 100%;
     width: 20%;
@@ -41,7 +46,7 @@ body{
 
 }
 
-#topocentro{
+#topocentro {
 
     height: 100%;
     width: 60%;
@@ -52,7 +57,7 @@ body{
 
 }
 
-#topodireito{
+#topodireito {
 
     height: 100%;
     width: 20%;
@@ -63,7 +68,7 @@ body{
 
 }
 
-#topo2{
+#topo2 {
 
     height: 5%;
     width: 100%;
@@ -74,43 +79,44 @@ body{
 
 }
 
-#meio{
+#meio {
 
     height: 65%;
     width: 100%;
-    background-color:green;
+    background-color: green;
     display: flex;
 
 }
 
-#imgmantorei{
+#imgmantorei {
 
     height: 70px;
     width: 70px;
     margin: 10px;
 }
-#img{
+
+#img {
 
     height: 3rem;
     width: 3rem;
-    margin: 0,8rem;
+    margin: 0, 8rem;
 }
-#img2{
+
+#img2 {
 
     height: 40px;
     width: 40px;
     margin: 10px;
 }
 
-#baixo{
+#baixo {
 
     height: 15%;
     width: 100%;
-    background-color:gray
-
+    background-color: gray
 }
 
-#butonsearch{
+#butonsearch {
 
     height: 40%;
     width: 5%;
@@ -123,12 +129,13 @@ body{
     background-color: white;
 
 }
-.textdropdown{
+
+.textdropdown {
 
     font-family: 'Rubik', sans-serif;
 }
 
-#search{
+#search {
 
     height: 40%;
     width: 80%;
@@ -137,25 +144,37 @@ body{
     font-size: 110%;
     font-family: 'Rubik', sans-serif;
     padding-left: 2%;
-    
+
 
 }
-button:focus{
+
+button:focus {
     outline: none;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-::placeholder{
+
+::placeholder {
 
     color: rgb(228, 228, 228);
 
 }
 
-.d-block{
+.d-block {
 
     height: 10%;
     width: 10%;
 
 }
 
+#ImgCarroussel {
+
+    max-height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.
