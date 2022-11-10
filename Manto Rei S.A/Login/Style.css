@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    height: 100%;
+    margin: 0px;
+    align-items: center;
+    background-color: white;
+}
+a{
+
+    text-decoration: none;
+
+}
+
+#container{
+
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#firstLine{
+
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    font-size: 2rem;
+
+}
+
+#divDoLogo{
+
+    height: 25%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#divDoMeio{
+
+    height: 50%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#divDaCaixaDeLogin{
+
+    height: 30%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{
+
+    height: 14rem;
+    width: 14rem;
+
+}
+
+#divEsqueciSenha{
+
+    height: 30%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#divButton{
+
+
+
+}
+
+input{
+
+    height: 2rem;
+    width: 20rem;
+
+
+}
