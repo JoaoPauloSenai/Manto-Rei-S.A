@@ -234,7 +234,7 @@ body{
 
     height: 70%;
     width: 100%;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(231, 231, 231);
     display: flex;
 
 }
@@ -345,8 +345,10 @@ body{
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
 
 #meio-direita{
 
