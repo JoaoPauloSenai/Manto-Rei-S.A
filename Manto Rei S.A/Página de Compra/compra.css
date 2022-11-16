@@ -2,6 +2,9 @@ html{
 
     height: 100%;
 
+    --cor-fundo : rgb(132, 0, 255);    
+    --cor-hover : rgb(94, 1, 182);
+    --cor-primaria : rgb(231, 241, 236);
 }
 
 body{
@@ -14,7 +17,7 @@ body{
 #container{
 
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(132, 0, 255); 
 
 }
 
@@ -64,7 +67,7 @@ body{
     height: 32%;     
     border-radius: 10px 0px 0px 10px;
     border: 0px;
-    padding-left: 15px;
+    padding-left: 2%;
 
 }
 #pesquisa:focus{
@@ -127,12 +130,68 @@ body{
 
 }
 
-#cima-roxo{
-    
-    height: 10%;
+.dp-menu{
+
     width: 100%;
-    display: flex;
-    background-color: rgb(132, 0, 255);
+    height: 7%;
+}
+
+.dp-menu ul{
+
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.dp-menu ul{
+
+    background-color: var(--cor-fundo);
+    
+}
+
+.dp-menu ul li{
+
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.dp-menu ul li a:hover{
+
+    background-color: var(--cor-hover);
+}
+
+/* sub menu */
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    opacity: 1;
+}
+
+.dp-menu ul ul{
+    width: 150px;
+
+}
+
+.dp-menu ul ul li a{
+    display: block;
+    
 }
 
 #selecao{
