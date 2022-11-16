@@ -23,7 +23,7 @@ body{
 
 #cima-preto{
     
-    height: 10%;
+    height: 14%;
     width: 100%;
     display: flex;
     background-color: rgb(88, 86, 86);
@@ -43,9 +43,9 @@ body{
 #icone-manto-rei{
     
     
-    height: 22%; 
-    width: 22%; 
-    margin-left: 40%;
+    height: 27%; 
+    width: 27%; 
+    margin-left: 20%;
     
 }
 
@@ -255,7 +255,7 @@ body{
 #miniaturas{
 
     height: 100%;
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -267,20 +267,19 @@ body{
 #miniatura-cima{
 
     height: 29%;
-    width: 100%;
+    width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(221, 220, 220);
 
-
 }
 
 #miniatura-meio{
 
     height: 29%;
-    width: 100%;
+    width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -292,7 +291,7 @@ body{
 #miniatura-baixo{
 
     height: 29%;
-    width: 100%;
+    width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -304,25 +303,25 @@ body{
 .miniaturas-img{
 
     height: 100%;
-    width: 90%;
+    width: 100%;
     
 }
+
 
 #fundo-foto-principal{
 
     height: 100%;
-    width: 85%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 
 }
 
 #foto-principal{
     
     height: 90%;
-    width: 60%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -443,9 +442,6 @@ body{
     border-color: black;
     scale: 105%;
     
-
-
-
 }
 
 #meio-direita-baixo{
@@ -473,7 +469,6 @@ body{
 
     border-color: black;
     scale: 105%;
-
 
 }
 

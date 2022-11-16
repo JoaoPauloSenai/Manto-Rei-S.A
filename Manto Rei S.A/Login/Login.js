@@ -1,0 +1,5 @@
+function entrar(){
+
+alert(`olá`)
+
+}
