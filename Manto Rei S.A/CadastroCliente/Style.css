@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 html {
 
     height: 100%;
@@ -8,136 +13,154 @@ body {
 
     height: 100%;
     margin: 0px;
-    background-color: white
+    align-items: center;
+    background-color: white;
+}
+a{
+
+    text-decoration: none;
+
 }
 
-#container {
+#container{
 
     height: 100%;
+    width: 100%;
     background-color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
 
 }
 
-#esquerda {
+#firstLine{
 
-    background-color: aqua;
-    height: 100%;
-    width: 17%;
-
-}
-
-#direita {
-
-    background-color: black;
-    height: 100%;
-    width: 83%;
-
-}
-
-#topo1 {
-
-    height: 15%;
+    height: 10%;
     width: 100%;
-    background-color: blueviolet;
-    display: flex;
+    background-color: rgb(132, 0, 255);
+    font-size: 2rem;
 
 }
 
-#topoesquerdo {
+#divDoLogo{
 
-    height: 100%;
-    width: 20%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#topocentro {
-
-    height: 100%;
-    width: 60%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#topodireito {
-
-    height: 100%;
-    width: 20%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#topo2 {
-
-    height: 5%;
+    height: 25%;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(132, 0, 255);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#divDoMeio{
+
+    height: 55%;
+    width: 100%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
 
-#meio {
+#divDaCaixaDeLogin{
 
     height: 65%;
     width: 100%;
-    background-color: green;
-
-}
-
-#meio-separacao {
-
-    background-color: blue;
-    height: 2rem;
-
-}
-
-.meio-dados-pessoais {
-
-    background-color: red;
-
-    height: 2rem;
-    width: 100%;
+    background-color: rgb(132, 0, 255);
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-#baixo {
+#logo{
 
-    height: 15%;
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+
+}
+
+#divEsqueciSenha{
+
+    height: 10%;
     width: 100%;
-    background-color: gray
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-#input-dados-cadastrais {
+#divButton{
 
-    height: 1rem;
-
-}
-
-#baixo {
-
-    background-color: burlywood;
-    height: 15%;
+    height: 20%;
     width: 100%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.dados-pessoais {
-    width: 33%;
-    justify-content: start;
+#Baixo{
+
+    height: 10%;
+    width: 100%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input:focus{
+
+    outline: none;
+
+}
+
+input{
+
+    height: 2rem;
+    width: 20rem;
+    border-radius: 15px;
+    border: 0px;
+    padding-left: 1%;
+    
+
+}
+
+button{
+
+    height: 3rem;
+    width: 15rem;
+    border-radius: 20px;
+    user-select: none;
+    border: 0px;
+    font-size: 2rem;
+
+}
+
+a{
+
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI';
+    user-select: none;
+
+}
+
+a:hover{
+
+    color: rgb(207, 115, 235);
+    font-family: 'Segoe UI';
 }
