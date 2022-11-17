@@ -43,13 +43,20 @@ body{
 #icone-manto-rei{
     
     
-    height: 27%; 
-    width: 27%; 
-    margin-left: 20%;
+    height: 100%; 
+    width: 37%; 
+    margin-left: 40%;
     
 }
 
+#nome-logo{
 
+    color: aliceblue;
+    height: 41%;
+    width: 140%;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 #barra-de-pesquisa{
 
