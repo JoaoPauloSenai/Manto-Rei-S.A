@@ -56,35 +56,35 @@
     
                 <li><a href="#">Seleções</a>
                     <ul>
-                        <li><a id="link-alemanha" onclick="Alemanha1()">Alemanha</a></li>
-                        <li><a id="link-argentina" onclick="Argentina1()">Argentina</a></li>
-                        <li><a id="link-brasil" onclick="Brasil1()">Brasil</a></li>
-                        <li><a id="link-coreia" onclick="Coreia1()">Coreia do Sul</a></li>
-                        <li><a id="link-franca" onclick="Franca1()">França</a></li>
-                        <li><a id="link-holanda" onclick="Holanda1()">Holanda</a></li>
-                        <li><a id="link-portugal" onclick="Portugal1()">Portugal</a></li>
+                        <li><a onclick="carregarCamisa('Alemanha')">Alemanha</a></li>
+                        <li><a onclick="carregarCamisa('Argentina1')">Argentina</a></li>
+                        <li><a onclick="carregarCamisa('Brasil1')">Brasil</a></li>
+                        <li><a onclick="carregarCamisa('Coreia1')">Coreia do Sul</a></li>
+                        <li><a onclick="carregarCamisa('França1')">França</a></li>
+                        <li><a onclick="carregarCamisa('Holanda1')">Holanda</a></li>
+                        <li><a onclick="carregarCamisa('Portugal1')">Portugal</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Internacionais</a>
                     <ul>
-                        <li><a id="link-barcelona" onclick="Barcelona1()">Barcelona</a></li>
-                        <li><a id="link-borussia" onclick="Borussia1()">Borussia Dortmund</a></li>
-                        <li><a id="link-liverpool" onclick="Liverpool1()">Liverpool</a></li>
-                        <li><a id="link-mancity" onclick="ManCity1()">Manchester City</a></li>
-                        <li><a id="link-milan" onclick="Milan1()">Milan</a></li>
-                        <li><a id="link-psg" onclick="PSG1()">PSG</a></li>
-                        <li><a id="link-realmadrid" onclick="RealMadrid1()">Real Madrid</a></li>
+                        <li><a onclick="carregarCamisa('Barcelona1')">Barcelona</a></li>
+                        <li><a onclick="carregarCamisa('Borussia1')">Borussia Dortmund</a></li>
+                        <li><a onclick="carregarCamisa('Liverpool1')">Liverpool</a></li>
+                        <li><a onclick="carregarCamisa('ManCity1')">Manchester City</a></li>
+                        <li><a onclick="carregarCamisa('Milan1')">Milan</a></li>
+                        <li><a onclick="carregarCamisa('PSG1')">PSG</a></li>
+                        <li><a onclick="carregarCamisa('RealMadrid1')">Real Madrid</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Brasileiros</a>
                     <ul>
-                        <li><a id="link-corinthias" onclick="Corinthias1()">Corinthias</a></li>
-                        <li><a id="link-flamengo" onclick="Flamengo1()">Flamengo</a></li>
-                        <li><a id="link-fluminense" onclick="Fluminense1()">Fluminense</a></li>
-                        <li><a id="link-gremio" onclick="Gremio1()">Grêmio</a></li>
-                        <li><a id="link-internacional" onclick="Internacional1()">Internacional</a></li>
-                        <li><a id="link-palmeiras" onclick="Palmeiras1()">Palmeiras</a></li>
-                        <li><a id="link-santos" onclick="Santos1()">Santos</a></li>
+                        <li><a onclick="carregarCamisa('Corinthias1')">Corinthias</a></li>
+                        <li><a onclick="carregarCamisa('Flamengo1')">Flamengo</a></li>
+                        <li><a onclick="carregarCamisa('Fluminense1')">Fluminense</a></li>
+                        <li><a onclick="carregarCamisa('Gremio1')">Grêmio</a></li>
+                        <li><a onclick="carregarCamisa('Internacional1')">Internacional</a></li>
+                        <li><a onclick="carregarCamisa('Palmeiras1')">Palmeiras</a></li>
+                        <li><a onclick="carregarCamisa('Santos1')">Santos</a></li>
                     </ul>
                 </li>
     
@@ -100,18 +100,18 @@
 
                         <div id="miniatura-cima">
 
-                            <img class="miniaturas-img" src="../IMG/camisaBarcelona.png">
+                            <img onclick="mudarVariacao(1)" id="miniatura1" class="miniaturas-img" src="">
 
                         </div>
 
                         <div id="miniatura-meio">
 
-                            <img class="miniaturas-img" src="../IMG/camisaBarcelona.png">
+                            <img onclick="mudarVariacao(2)" id="miniatura2" class="miniaturas-img" src="">
 
                         </div>
                         <div id="miniatura-baixo">
 
-                            <img class="miniaturas-img" src="../IMG/camisaBarcelona.png">
+                            <img onclick="mudarVariacao(3)" id="miniatura3" class="miniaturas-img" src="">
                     
                         </div>
 
@@ -121,7 +121,7 @@
 
                         <div id="foto-principal">
                             
-                            <img id="boca-img" src="../IMG/camisaBarcelona.png">
+                            <img id="img-principal" src="">
 
                         </div>
                     </div>
@@ -131,41 +131,44 @@
                 <div id="meio-esquerda-baixo">
 
                     <ul class="atributtes">
-                        <li>
-                            <strong>Time:</strong>
-                             Barcelona 
-                        </li>
 
-                        <li>
-                            <strong>Marca:</strong>
-                             Nike 
-                        </li>
+                        <strong>Time:</strong>
+                        <ul id="descricao-time">
+                              
+                        </ul>
+
+                        <strong>Marca:</strong>
+                        <ul id="marca">
+                              
+                        </ul>
 
                     </ul>
 
                     <ul class="atributtes">
-                        <li>
-                            <strong>Material:</strong>
+
+                        <strong>Material:</strong>
+                        <ul id="material">
                              Poliéster 
-                        </li>
+                        </ul>
 
-                        <li>
-                            <strong>Garantia do Fabricante:</strong>
+                        <strong>Garantia do Fabricante:</strong>
+                        <ul id="garantia">
                              Contra defeito de fabricação 
-                        </li>
+                        </ul>
 
                     </ul>
 
                     <ul class="atributtes">
-                        <li>
-                            <strong>Patrocínio:</strong>
-                             Spotify 
-                        </li>
+                        
+                        <strong>Patrocínio:</strong>
+                        <ul id="patrocinio">
+                              
+                        </ul>
 
-                        <li>
-                            <strong>Cor Predominante:</strong>
-                             Amarelo 
-                        </li>
+                        <strong>Cor Predominante:</strong>
+                        <ul id="cor-predominante">
+                              
+                        </ul>
 
                     </ul>
 
@@ -222,7 +225,7 @@
 
                 <div class="mais-vendidas">
                 
-                    <img class="img-produtos" src="../IMG/camisaHolanda.png">
+                    <img class="img-produtos" src="../IMG/camisaHolanda3.png">
 
                     <div class="divisoria-produtos"></div>
                     
@@ -233,7 +236,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaRealMadrid.png">
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid1.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -244,7 +247,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaFlamengo.png">
+                    <img class="img-produtos" src="../IMG/camisaFlamengo1.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -255,7 +258,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+                    <img class="img-produtos" src="../IMG/camisaLiverpool1.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -272,7 +275,7 @@
 
                 <div class="mesma-marca">
 
-                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+                    <img id="produtos-similares-um" class="img-produtos" src="../IMG/camisaLiverpool.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -283,7 +286,7 @@
 
                 <div class="mesma-marca">
 
-                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+                    <img id="produtos-similares-dois" class="img-produtos" src="../IMG/camisaLiverpool.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -294,7 +297,7 @@
 
                 <div class="mesma-marca">
 
-                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+                    <img id="produtos-similares-tres" class="img-produtos" src="../IMG/camisaLiverpool.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -305,7 +308,7 @@
 
                 <div class="mesma-marca">
 
-                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+                    <img id="produtos-similares-quatro" class="img-produtos" src="../IMG/camisaLiverpool.png">
 
                     <div class="divisoria-produtos"></div>
 
@@ -323,6 +326,7 @@
 
     </div>
 
+    <script src="compra.js"></script>
 </body>
 
 </html>
