@@ -1,198 +1,335 @@
-*{
-    box-sizing: border-box;
-}
-
-
-html {
+html{
 
     height: 100%;
 
+    --cor-fundo : rgb(132, 0, 255);    
+    --cor-hover : rgb(94, 1, 182);
+    --cor-primaria : rgb(231, 241, 236);
 }
 
-body {
+body{
 
     height: 100%;
-    margin: 0px;
-    align-items: center;
-    background-color: white
+    margin: 0%;
+
 }
 
-#container {
+#container{
 
     height: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgb(132, 0, 255); 
 
 }
 
-#topo1 {
-
-    height: 15%;
+#cima-preto{
+    
+    height: 14%;
     width: 100%;
     display: flex;
-
+    background-color: rgb(88, 86, 86);
 }
 
-#topoesquerdo {
+#logo{
 
     height: 100%;
-    width: 20%;
-    background-color: rgb(116, 194, 0);
+    width: 25%;
+    background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
     align-items: center;
-
+    
+    
 }
 
-#topocentro {
+#icone-manto-rei{
+    
+    
+    height: 100%; 
+    width: 37%; 
+    margin-left: 40%;
+    
+}
+
+#nome-logo{
+
+    color: aliceblue;
+    height: 41%;
+    width: 140%;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#barra-de-pesquisa{
 
     height: 100%;
-    width: 60%;
-    background-color: rgb(116, 194, 0);
+    width: 50%;
+    background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
     align-items: center;
 
 }
 
-#topodireito {
+#pesquisa{
 
-    height: 100%;
-    width: 20%;
-    background-color: rgb(116, 194, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#topo2 {
-
-    height: 5%;
-    width: 100%;
-    background-color: rgb(116, 194, 0);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-#meio {
-
-    height: 65%;
-    width: 100%;
-    background-color: green;
-    display: flex;
-
-}
-
-#imgmantorei {
-
-    height: 70px;
-    width: 70px;
-    margin: 10px;
-}
-
-#img {
-
-    height: 3rem;
-    width: 3rem;
-    margin: 0, 8rem;
-}
-
-#img2 {
-
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-}
-
-#baixo {
-
-    height: 15%;
-    width: 100%;
-    background-color: gray
-}
-
-#butonsearch {
-
-    height: 40%;
-    width: 5%;
-    border-radius: 0px 15px 15px 0px;
+    width: 70%;
+    height: 32%;     
+    border-radius: 10px 0px 0px 10px;
     border: 0px;
-    background-image: url("IMG/Lupa.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-
-}
-
-.textdropdown {
-
-    font-family: 'Rubik', sans-serif;
-}
-
-#search {
-
-    height: 40%;
-    width: 80%;
-    border-radius: 15px 0px 0px 15px;
-    border: 0px;
-    font-size: 110%;
-    font-family: 'Rubik', sans-serif;
     padding-left: 2%;
 
-
 }
+#pesquisa:focus{
 
-button:focus {
     outline: none;
 }
 
-input:focus {
-    outline: none;
+
+#botao-pesquisa{
+
+    height: 90%; 
+    width: 68%; 
+    margin-left: 50%;
 }
 
-::placeholder {
-    
-    color: rgb(228, 228, 228);
-    
-}
+#button{
 
-
-
-#ImgCarroussel {
-    
+    height: 35%; 
+    width: 9%; 
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    
-    object-fit: cover;
+    justify-content: space-around;
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+}
+
+#login{
+
     height: 100%;
-    width: 100%;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
+#atendimento-ao-cliente{
 
-.Carroussel-container{
-max-height: 70%;
+    height: 38%; 
+    width: 38%; 
     
-display: flex;
-transition: transform 0.5s ease-in-out;
-transform: translateX(0);
 
 }
 
+#login-imagem{
 
-.Carroussel{
+    height: 100%; 
+    width: 100%; 
+    margin-left: 10%;
 
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    height: 100%;
+}
+
+#carrinho-imagem{
+
+    height: 33%; 
+    width: 33%; 
+    margin-left: 30%;
+
+}
+
+.dp-menu{
+
     width: 100%;
+    height: 7%;
+}
+
+.dp-menu ul{
+
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+.dp-menu ul{
+
+    background-color: var(--cor-fundo);
+    
+}
+
+.dp-menu ul li{
+
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.dp-menu ul li a:hover{
+
+    background-color: var(--cor-hover);
+}
+
+/* sub menu */
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    opacity: 1;
+}
+
+.dp-menu ul ul{
+    width: 150px;
+
+}
+
+.dp-menu ul ul li a{
+    display: block;
+    
+}
+
+#selecao{
+
+    height: 100%;
+    width: 25%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#internacionais{
+
+    height: 100%;
+    width: 50%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#brasileiros{
+
+    height: 100%;
+    width: 25%;
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
 
+.lbProdutos{
+
+    height: 3%;
+    width: 40%;
+    font-size: 200%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 55%;
+    margin-top: 2%;
+}
+
+#sugestoes{
+
+    height: 300%;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.divisoria-produtos{
+
+    height: 0.3%;
+    background-color: black;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+}
+
+.maisVendidas{
+
+    height: 33%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    
+}
+
+.mais-vendidas{
+
+    height: 97%;
+    width: 20%;
+    background-color: rgb(221, 220, 220);
+    margin-top: 2%;
+
+}
+.mais-vendidas:hover{
+
+    scale: 105%;
+}
+
+#mesmaMarca{
+
+    height: 33%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.mesma-marca{
+
+    height: 100%;
+    width: 20%;
+    background-color: rgb(221, 220, 220);
+
+}
+
+.mesma-marca:hover{
+
+    scale: 105%;
+}
+
+.img-produtos{
+
+    height: 70%;
+    width: 100%;
+    
+
+}
+
+.descricao-produto{
+
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

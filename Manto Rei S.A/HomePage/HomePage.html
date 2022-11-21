@@ -5,69 +5,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../IMG/LogoOficialMantoRei PNG.png" type="image/x-icon">
-
-    <title>Manto Rei</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Manto Rei - Camisa da Alemanha</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
 </head>
 
 <body>
 
     <div id="container">
 
-        <div id="topo1">
-            
-            <div id="topoesquerdo">
-                
-                <a href="HomePage.html" target=""><img src="../IMG/LogoOficialMantoRei PNG.png" id="imgmantorei"></a>
+        <div id="cima-preto">
 
+            <div id="logo">
+
+                <a href="google.com" target="_blank">
+                    <img src="../IMG/logo.png" id="icone-manto-rei">
+                </a>
+                    <h1 id="nome-logo">Manto Rei</h1>
 
             </div>
-            
-            <div id="topocentro">
-                
-                <input name="search" id="search" type="text" placeholder="Faça sua busca">
-                <button id="butonsearch"></button>
+
+            <div id="barra-de-pesquisa">
+
+                <input id="pesquisa">
+                <button id="button" type="button"><img src="../IMG/Lupa.png" id="botao-pesquisa" /></button>
                 
             </div>
 
-            <div id="topodireito">
-                
-                <a href="cadastroCliente.html" target=""><img src="../IMG/Atendimento ao cliente.png" id="img"></a>
-                <a href="login.html" target=""><img src="../IMG/user-icon-login.png" id="img"></a>
-                <a href="cadastroCliente.html" target=""><img src="../IMG/Carrinho.png" id="img"></a>
-                
+            <div id="login">
+
+                <a href="atendimento.com">
+                    <img id="atendimento-ao-cliente" src="../IMG/atendimento_branco.png">
+                </a>
+
+                <a href="login.com">
+                    <img id="login-imagem" src="../IMG/login_branco.png">
+                </a>
+
+                <a href="carrinho.com">
+                    <img id="carrinho-imagem" src="../IMG/carrinho_branco.png">
+                </a>
+
             </div>
-            
+
         </div>
 
-        <div id="topo2">
-            
+        <div class="dp-menu">
 
+            <ul>
+    
+                <li><a href="#">Seleções</a>
+                    <ul>
+                        <li><a id="link-alemanha" onclick="Alemanha1()">Alemanha</a></li>
+                        <li><a id="link-argentina" onclick="Argentina1()">Argentina</a></li>
+                        <li><a id="link-brasil" onclick="Brasil1()">Brasil</a></li>
+                        <li><a id="link-coreia" onclick="Coreia1()">Coreia do Sul</a></li>
+                        <li><a id="link-franca" onclick="Franca1()">França</a></li>
+                        <li><a id="link-holanda" onclick="Holanda1()">Holanda</a></li>
+                        <li><a id="link-portugal" onclick="Portugal1()">Portugal</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Internacionais</a>
+                    <ul>
+                        <li><a id="link-barcelona" onclick="Barcelona1()">Barcelona</a></li>
+                        <li><a id="link-borussia" onclick="Borussia1()">Borussia Dortmund</a></li>
+                        <li><a id="link-liverpool" onclick="Liverpool1()">Liverpool</a></li>
+                        <li><a id="link-mancity" onclick="ManCity1()">Manchester City</a></li>
+                        <li><a id="link-milan" onclick="Milan1()">Milan</a></li>
+                        <li><a id="link-psg" onclick="PSG1()">PSG</a></li>
+                        <li><a id="link-realmadrid" onclick="RealMadrid1()">Real Madrid</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Brasileiros</a>
+                    <ul>
+                        <li><a id="link-corinthias" onclick="Corinthias1()">Corinthias</a></li>
+                        <li><a id="link-flamengo" onclick="Flamengo1()">Flamengo</a></li>
+                        <li><a id="link-fluminense" onclick="Fluminense1()">Fluminense</a></li>
+                        <li><a id="link-gremio" onclick="Gremio1()">Grêmio</a></li>
+                        <li><a id="link-internacional" onclick="Internacional1()">Internacional</a></li>
+                        <li><a id="link-palmeiras" onclick="Palmeiras1()">Palmeiras</a></li>
+                        <li><a id="link-santos" onclick="Santos1()">Santos</a></li>
+                    </ul>
+                </li>
+    
         </div>
 
-        <div id="meio">
+        <div id="sugestoes">
 
-            <div class="Carroussel-container">
-                <div class="Carroussel">
-                    <img src="../IMG/Atendimento ao cliente 2.png" id="ImgCarroussel">
-                    <img src="../IMG/Carrinho 2.png" id="ImgCarroussel">
-                    <img src="../IMG/Cartão 2.png" id="ImgCarroussel">
-                    <img src="../IMG/css-3-logo-1.png" id="ImgCarroussel">
+            <label class="lbProdutos">Mais vendidas</label>
+
+            <div class="maisVendidas">
+
+                <div class="mais-vendidas">
+                
+                    <img class="img-produtos" src="../IMG/camisaHolanda.png">
+
+                    <div class="divisoria-produtos"></div>
+                    
+                    <div class="descricao-produto">
+
+                    </div>
                 </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaFlamengo.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
             </div>
-            
-        </div>
+
+            <label class="lbProdutos">Nike</label>
+
+            <div class="maisVendidas">
+
+                <div class="mais-vendidas">
+                
+                    <img class="img-produtos" src="../IMG/camisaHolanda.png">
+
+                    <div class="divisoria-produtos"></div>
+                    
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaFlamengo.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <label class="lbProdutos">Adidas</label>
+
+            <div class="maisVendidas">
+
+                <div class="mais-vendidas">
+                
+                    <img class="img-produtos" src="../IMG/camisaHolanda.png">
+
+                    <div class="divisoria-produtos"></div>
+                    
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaFlamengo.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <label class="lbProdutos">Puma</label>
+
+            <div class="maisVendidas">
+
+                <div class="mais-vendidas">
+                
+                    <img class="img-produtos" src="../IMG/camisaHolanda.png">
+
+                    <div class="divisoria-produtos"></div>
+                    
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaFlamengo.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+            </div>
 
         <div id="baixo">
 
-            
         </div>
 
-    </div>
-    
-    <script src="index.js"></script>
 </body>
 
 </html>
