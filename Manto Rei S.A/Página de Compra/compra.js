@@ -128,18 +128,18 @@ function carregamentoInicial(){
         camisas.push(alemanha3)
 
 
-    let argentina1 = { 
+    let argentina = { 
 
         miniaturaUm: `../IMG/camisaArgentina1.png`,        
         miniaturaDois: `../IMG/camisaArgentina2.png`,        
         miniaturaTres: `../IMG/camisaArgentina3.png`,        
-        principalImg: `../IMG/camisaArgentina3.png`,
+        principalImg: `../IMG/camisaArgentina1.png`,
 
         camisaNome: "CAMISA da ARGENTINA",
         camisaPrecoCortado: "R$199,99",
         camisaPreco: "R$179,99",
 
-        descricaoTime: "Argentina1",
+        descricaoTime: "Argentina",
         descricaoMarca: "Adidas",
         descricaoMaterial: "Poliéster",
         descricaoGarantia: "Contra defeito de fabricação",
@@ -154,20 +154,20 @@ function carregamentoInicial(){
         variacao: 1
     }
 
-        camisas.push(argentina1)
+        camisas.push(argentina)
 
         let argentina2 = { 
 
             miniaturaUm: `../IMG/camisaArgentina1.png`,        
             miniaturaDois: `../IMG/camisaArgentina2.png`,        
             miniaturaTres: `../IMG/camisaArgentina3.png`,        
-            principalImg: `../IMG/camisaArgentina3.png`,
+            principalImg: `../IMG/camisaArgentina2.png`,
     
             camisaNome: "CAMISA da ARGENTINA",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
     
-            descricaoTime: "Argentina1",
+            descricaoTime: "Argentina2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
@@ -182,7 +182,7 @@ function carregamentoInicial(){
             variacao: 2
         }
     
-            camisas.push(argentina1)
+            camisas.push(argentina2)
 
         let argentina3 = { 
 
@@ -195,7 +195,7 @@ function carregamentoInicial(){
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
     
-            descricaoTime: "Argentina1",
+            descricaoTime: "Argentina3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
@@ -210,7 +210,532 @@ function carregamentoInicial(){
             variacao: 3
         }
     
-            camisas.push(argentina1)
+            camisas.push(argentina3)
+
+        let brasil = { 
+
+            miniaturaUm: `../IMG/camisaBrasil1.png`,        
+            miniaturaDois: `../IMG/camisaBrasil2.png`,        
+            miniaturaTres: `../IMG/camisaBrasil3.png`,        
+            principalImg: `../IMG/camisaBrasil1.png`,
+    
+            camisaNome: "CAMISA da ALEMANHA",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Brasil",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(brasil)
+        
+        
+        let brasil2 = { 
+    
+            miniaturaUm: `../IMG/camisaBrasil1.png`,        
+            miniaturaDois: `../IMG/camisaBrasil2.png`,        
+            miniaturaTres: `../IMG/camisaBrasil3.png`,        
+            principalImg: `../IMG/camisaBrasil2.png`,
+    
+            camisaNome: "CAMISA da Brasil",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Brasil2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(brasil2)
+        
+        
+        
+        let brasil3 = { 
+    
+            miniaturaUm: `../IMG/camisaBrasil1.png`,        
+            miniaturaDois: `../IMG/camisaBrasil2.png`,        
+            miniaturaTres: `../IMG/camisaBrasil3.png`,        
+            principalImg: `../IMG/camisaBrasil3.png`,
+    
+            camisaNome: "CAMISA da Brasil",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Brasil3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(brasil3)
+
+        let coreia = { 
+
+            miniaturaUm: `../IMG/camisaCoreia1.png`,        
+            miniaturaDois: `../IMG/camisaCoreia2.png`,        
+            miniaturaTres: `../IMG/camisaCoreia3.png`,        
+            principalImg: `../IMG/camisaCoreia1.png`,
+    
+            camisaNome: "CAMISA da Coreia do Sul",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Coreia",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(coreia)
+        
+        
+        let coreia2 = { 
+    
+            miniaturaUm: `../IMG/camisaCoreia1.png`,        
+            miniaturaDois: `../IMG/camisaCoreia2.png`,        
+            miniaturaTres: `../IMG/camisaCoreia3.png`,        
+            principalImg: `../IMG/camisaCoreia2.png`,
+    
+            camisaNome: "CAMISA da Coreia do Sul",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Coreia2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(coreia2)
+        
+        
+        
+        let coreia3 = { 
+    
+            miniaturaUm: `../IMG/camisaCoreia1.png`,        
+            miniaturaDois: `../IMG/camisaCoreia2.png`,        
+            miniaturaTres: `../IMG/camisaCoreia3.png`,        
+            principalImg: `../IMG/camisaCoreia3.png`,
+    
+            camisaNome: "CAMISA da Coreia do Sul",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "coreia3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+        
+            camisas.push(coreia3)
+
+        let franca = { 
+
+            miniaturaUm: `../IMG/camisaFranca1.png`,        
+            miniaturaDois: `../IMG/camisaFranca2.png`,        
+            miniaturaTres: `../IMG/camisaFranca3.png`,        
+            principalImg: `../IMG/camisaFranca1.png`,
+    
+            camisaNome: "CAMISA da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "França",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(franca)
+        
+        
+        let franca2 = { 
+    
+            miniaturaUm: `../IMG/camisaFranca1.png`,        
+            miniaturaDois: `../IMG/camisaFranca2.png`,        
+            miniaturaTres: `../IMG/camisaFranca3.png`,        
+            principalImg: `../IMG/camisaFranca2.png`,
+    
+            camisaNome: "CAMISA da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "França2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(franca2)
+        
+        
+        
+        let franca3 = { 
+    
+            miniaturaUm: `../IMG/camisaFranca1.png`,        
+            miniaturaDois: `../IMG/camisaFranca2.png`,        
+            miniaturaTres: `../IMG/camisaFranca3.png`,        
+            principalImg: `../IMG/camisaFranca3.png`,
+    
+            camisaNome: "CAMISA da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "França3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(franca3)
+
+        let holanda = { 
+
+            miniaturaUm: `../IMG/camisaHolanda1.png`,        
+            miniaturaDois: `../IMG/camisaHolanda2.png`,        
+            miniaturaTres: `../IMG/camisaHolanda3.png`,        
+            principalImg: `../IMG/camisaHolanda1.png`,
+    
+            camisaNome: "CAMISA da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Holanda",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(holanda)
+        
+        
+        let holanda2 = { 
+    
+            miniaturaUm: `../IMG/camisaHolanda1.png`,        
+            miniaturaDois: `../IMG/camisaHolanda2.png`,        
+            miniaturaTres: `../IMG/camisaHolanda3.png`,        
+            principalImg: `../IMG/camisaHolanda2.png`,
+    
+            camisaNome: "CAMISA da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Holanda2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(holanda2)
+        
+        
+        
+        let holanda3 = { 
+    
+            miniaturaUm: `../IMG/camisaHolanda1.png`,        
+            miniaturaDois: `../IMG/camisaHolanda2.png`,        
+            miniaturaTres: `../IMG/camisaHolanda3.png`,        
+            principalImg: `../IMG/camisaHolanda3.png`,
+    
+            camisaNome: "CAMISA da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Holanda3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(holanda3)
+
+
+
+        let portugal = { 
+
+            miniaturaUm: `../IMG/camisaPortugal1.png`,        
+            miniaturaDois: `../IMG/camisaPortugal2.png`,        
+            miniaturaTres: `../IMG/camisaPortugal3.png`,        
+            principalImg: `../IMG/camisaPortugal1.png`,
+
+            camisaNome: "CAMISA de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+
+            descricaoTime: "Portugal",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+
+            variacao: 1
+        }
+
+            camisas.push(portugal)
+        
+        
+        let portugal2 = { 
+
+            miniaturaUm: `../IMG/camisaPortugal1.png`,        
+            miniaturaDois: `../IMG/camisaPortugal2.png`,        
+            miniaturaTres: `../IMG/camisaPortugal3.png`,        
+            principalImg: `../IMG/camisaPortugal2.png`,
+
+            camisaNome: "CAMISA de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+
+            descricaoTime: "Portugal2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+
+            camisas.push(portugal2)
+        
+        
+        
+        let portugal3 = { 
+
+            miniaturaUm: `../IMG/camisaPortugal1.png`,        
+            miniaturaDois: `../IMG/camisaPortugal2.png`,        
+            miniaturaTres: `../IMG/camisaPortugal3.png`,        
+            principalImg: `../IMG/camisaPortugal3.png`,
+
+            camisaNome: "CAMISA de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+
+            descricaoTime: "Portugal3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+
+            camisas.push(portugal3)
+
+
+        let barcelona = { 
+
+            miniaturaUm: `../IMG/camisaBarcelona1.png`,        
+            miniaturaDois: `../IMG/camisaBarcelona2.png`,        
+            miniaturaTres: `../IMG/camisaBarcelona3.png`,        
+            principalImg: `../IMG/camisaBarcelona1.png`,
+    
+            camisaNome: "CAMISA do BARCELONA",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Barcelona",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(barcelona)
+        
+        
+        let barcelona2 = { 
+    
+            miniaturaUm: `../IMG/camisaBarcelona1.png`,        
+            miniaturaDois: `../IMG/camisaBarcelona2.png`,        
+            miniaturaTres: `../IMG/camisaBarcelona3.png`,        
+            principalImg: `../IMG/camisaBarcelona1.png`,
+    
+            camisaNome: "CAMISA do BARCELONA",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Barcelona2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(barcelona2)
+        
+        
+        
+        let barcelona3 = { 
+    
+            miniaturaUm: `../IMG/camisaBarcelona1.png`,        
+            miniaturaDois: `../IMG/camisaBarcelona2.png`,        
+            miniaturaTres: `../IMG/camisaBarcelona3.png`,        
+            principalImg: `../IMG/camisaBarcelona1.png`,
+    
+            camisaNome: "CAMISA do BARCELONA",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Barcelona3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(barcelona3)
 }
 
 function mudarVariacao(nova){
