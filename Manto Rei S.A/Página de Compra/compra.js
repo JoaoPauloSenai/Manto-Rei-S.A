@@ -1177,7 +1177,7 @@ function carregamentoInicial(){
         }
 
             camisas.push(psg3)
-
+/*
 
                                 let barcelona = { 
 
