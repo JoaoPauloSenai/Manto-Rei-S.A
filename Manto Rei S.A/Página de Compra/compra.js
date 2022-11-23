@@ -39,6 +39,95 @@ function cadastrarCamisa(){
     camisa.push(camisas)
 }
 
+function mudarVariacao(nova){
+    camisas[camisaNaTela].variacao = nova;
+    // colocar a camisa 
+    principalImg.src = `../IMG/camisa${camisas[camisaNaTela].descricaoTime}${nova}.png`
+    
+}
+
+function salvaTime(time){
+
+    localStorage.setItem("Salva", JSON.stringify(time))
+    clube = time
+    localStorage.setItem("Salva", JSON.stringify(clube))
+
+    window.location.href="../Página de Compra/compra.html"
+}
+
+
+function puxaCamisa(){
+    
+
+    clube = JSON.parse(localStorage.getItem("Salva"))
+    
+    for(i=0; i<camisas.length; i++){
+
+        
+        if(camisas[i].descricaoTime == clube){
+
+            camisaNaTela = i
+            
+            miniaturaUm.src = camisas[i].miniaturaUm
+            miniaturaDois.src = camisas[i].miniaturaDois
+            miniaturaTres.src = camisas[i].miniaturaTres
+            principalImg.src = camisas[i].principalImg
+            
+            camisaNome.innerHTML = camisas[i].camisaNome
+            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
+            camisaPreco.innerHTML = camisas[i].camisaPreco
+            
+            descricaoTime.innerHTML = camisas[i].descricaoTime
+            descricaoMarca.innerHTML = camisas[i].descricaoMarca
+            descricaoMaterial.innerHTML = camisas[i].descricaoMarca
+            descricaoGarantia.innerHTML = camisas[i].descricaoGarantia
+            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
+            descricaoCor.innerHTML = camisas[i].descricaoCor
+
+            similares1.src = "../IMG/camisaFlamengo1.png"
+            similares2.src = "../IMG/camisaArgentina1.png"
+            similares3.src = "../IMG/camisaInternacional1.png"
+            similares4.src = "../IMG/camisaArgentina3.png"
+        }
+    }
+    
+}
+
+function carregarCamisa(time){
+    
+    
+    for(i=0; i<camisas.length; i++){
+
+        
+        if(camisas[i].descricaoTime == time){
+
+            camisaNaTela = i
+            
+            miniaturaUm.src = camisas[i].miniaturaUm
+            miniaturaDois.src = camisas[i].miniaturaDois
+            miniaturaTres.src = camisas[i].miniaturaTres
+            principalImg.src = camisas[i].principalImg
+            
+            camisaNome.innerHTML = camisas[i].camisaNome
+            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
+            camisaPreco.innerHTML = camisas[i].camisaPreco
+            
+            descricaoTime.innerHTML = camisas[i].descricaoTime
+            descricaoMarca.innerHTML = camisas[i].descricaoMarca
+            descricaoMaterial.innerHTML = camisas[i].descricaoMarca
+            descricaoGarantia.innerHTML = camisas[i].descricaoGarantia
+            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
+            descricaoCor.innerHTML = camisas[i].descricaoCor
+
+            similares1.src = "../IMG/camisaFlamengo1.png"
+            similares2.src = "../IMG/camisaArgentina1.png"
+            similares3.src = "../IMG/camisaInternacional1.png"
+            similares4.src = "../IMG/camisaArgentina3.png"
+        }
+    }
+    
+}
+
 function carregamentoInicial(){
 
     let alemanha = { 
@@ -54,7 +143,6 @@ function carregamentoInicial(){
 
         descricaoTime: "Alemanha",
         descricaoMarca: "Adidas",
-        descricaoMaterial: "Poliéster",
         descricaoGarantia: "Contra defeito de fabricação",
         descricaoPatrocinio: "Nenhum",
         descricaoCor: "Branco",
@@ -1455,7 +1543,7 @@ function carregamentoInicial(){
             camisaPreco: "R$179,99",
     
             descricaoTime: "Fluminense",
-            descricaoMarca: "Adidas",
+            descricaoMarca: "nike",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
@@ -1530,18 +1618,18 @@ function carregamentoInicial(){
     
             camisas.push(fluminense3)
 
-        let grêmio = { 
+        let fortaleza = { 
 
-            miniaturaUm: `../IMG/camisaGremio1.png`,        
-            miniaturaDois: `../IMG/camisaGremio2.png`,        
-            miniaturaTres: `../IMG/camisaGremio3.png`,        
-            principalImg: `../IMG/camisaGremio1.png`,
+            miniaturaUm: `../IMG/camisaFortaleza1.png`,        
+            miniaturaDois: `../IMG/camisaFortaleza2.png`,        
+            miniaturaTres: `../IMG/camisaFortaleza3.png`,        
+            principalImg: `../IMG/camisaFortaleza1.png`,
     
-            camisaNome: "Camisa do Grêmio",
+            camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
     
-            descricaoTime: "Grêmio",
+            descricaoTime: "Fortaleza",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
@@ -1556,21 +1644,21 @@ function carregamentoInicial(){
             variacao: 1
         }
     
-            camisas.push(grêmio)
+            camisas.push(fortaleza)
         
         
-        let grêmio2 = { 
+        let fortaleza2 = { 
     
-            miniaturaUm: `../IMG/camisaGremio1.png`,        
-            miniaturaDois: `../IMG/camisaGremio2.png`,        
-            miniaturaTres: `../IMG/camisaGremio3.png`,        
-            principalImg: `../IMG/camisaGremio2.png`,
+            miniaturaUm: `../IMG/camisaFortaleza1.png`,        
+            miniaturaDois: `../IMG/camisaFortaleza2.png`,        
+            miniaturaTres: `../IMG/camisaFortaleza3.png`,        
+            principalImg: `../IMG/camisaFortaleza2.png`,
     
-            camisaNome: "Camisa do Atletico Mineiro",
+            camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
     
-            descricaoTime: "Gremio2",
+            descricaoTime: "Fortaleza2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
@@ -1585,22 +1673,22 @@ function carregamentoInicial(){
             variacao: 2
         }
     
-            camisas.push(grêmio2)
+            camisas.push(fortaleza2)
         
         
         
-        let atleticoMineiro3 = { 
+        let fortaleza3 = { 
     
-            miniaturaUm: `../IMG/camisaGremio1.png`,        
-            miniaturaDois: `../IMG/camisaGremio2.png`,        
-            miniaturaTres: `../IMG/camisaGremio3.png`,        
-            principalImg: `../IMG/camisaGremio3.png`,
+            miniaturaUm: `../IMG/camisaFortaleza1.png`,        
+            miniaturaDois: `../IMG/camisaFortaleza2.png`,        
+            miniaturaTres: `../IMG/camisaFortaleza3.png`,        
+            principalImg: `../IMG/camisaFortaleza3.png`,
     
-            camisaNome: "Camisa do Atletico Mineiro",
+            camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
     
-            descricaoTime: "Gremio3",
+            descricaoTime: "Fortaleza3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
@@ -1615,7 +1703,7 @@ function carregamentoInicial(){
             variacao: 3
         }
     
-            camisas.push(atleticoMineiro3)
+            camisas.push(fortaleza3)
 
         let internacional = { 
 
@@ -1879,93 +1967,3 @@ function carregamentoInicial(){
             camisas.push(santos3)
                     
     }
-
-function mudarVariacao(nova){
-    camisas[camisaNaTela].variacao = nova;
-    // colocar a camisa 
-    principalImg.src = `../IMG/camisa${camisas[camisaNaTela].descricaoTime}${nova}.png`
-    
-}
-
-function salvaTime(time){
-
-    localStorage.setItem("Salva", JSON.stringify(time))
-    localStorage.setItem("Salva", JSON.stringify(clube))
-
-    window.location.href="../Página de Compra/compra.html"
-}
-
-
-function puxaCamisa(){
-    
-
-    clube = JSON.parse(localStorage.getItem("Salva"))
-    alert(clube)
-    
-    for(i=0; i<camisas.length; i++){
-
-        
-        if(camisas[i].descricaoTime == clube){
-
-            camisaNaTela = i
-            
-            miniaturaUm.src = camisas[i].miniaturaUm
-            miniaturaDois.src = camisas[i].miniaturaDois
-            miniaturaTres.src = camisas[i].miniaturaTres
-            principalImg.src = camisas[i].principalImg
-            
-            camisaNome.innerHTML = camisas[i].camisaNome
-            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
-            camisaPreco.innerHTML = camisas[i].camisaPreco
-            
-            descricaoTime.innerHTML = camisas[i].descricaoTime
-            descricaoMarca.innerHTML = camisas[i].descricaoMarca
-            descricaoMaterial.innerHTML = camisas[i].descricaoMarca
-            descricaoGarantia.innerHTML = camisas[i].descricaoGarantia
-            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
-            descricaoCor.innerHTML = camisas[i].descricaoCor
-
-            similares1.src = "../IMG/camisaFlamengo1.png"
-            similares2.src = "../IMG/camisaArgentina1.png"
-            similares3.src = "../IMG/camisaInternacional1.png"
-            similares4.src = "../IMG/camisaArgentina3.png"
-        }
-    }
-    
-}
-
-function carregarCamisa(time){
-    
-    
-    for(i=0; i<camisas.length; i++){
-
-        
-        if(camisas[i].descricaoTime == time){
-
-            camisaNaTela = i
-            
-            miniaturaUm.src = camisas[i].miniaturaUm
-            miniaturaDois.src = camisas[i].miniaturaDois
-            miniaturaTres.src = camisas[i].miniaturaTres
-            principalImg.src = camisas[i].principalImg
-            
-            camisaNome.innerHTML = camisas[i].camisaNome
-            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
-            camisaPreco.innerHTML = camisas[i].camisaPreco
-            
-            descricaoTime.innerHTML = camisas[i].descricaoTime
-            descricaoMarca.innerHTML = camisas[i].descricaoMarca
-            descricaoMaterial.innerHTML = camisas[i].descricaoMarca
-            descricaoGarantia.innerHTML = camisas[i].descricaoGarantia
-            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
-            descricaoCor.innerHTML = camisas[i].descricaoCor
-
-            similares1.src = "../IMG/camisaFlamengo1.png"
-            similares2.src = "../IMG/camisaArgentina1.png"
-            similares3.src = "../IMG/camisaInternacional1.png"
-            similares4.src = "../IMG/camisaArgentina3.png"
-        }
-    }
-    
-}
-
