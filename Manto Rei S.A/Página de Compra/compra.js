@@ -18,7 +18,8 @@ let similares2 = document.getElementById("produtos-similares-dois")
 let similares3 = document.getElementById("produtos-similares-tres")
 let similares4 = document.getElementById("produtos-similares-quatro")
 
-
+let time
+let clube
 let camisas = []
 let camisaNaTela = null
 
@@ -1179,720 +1180,732 @@ function carregamentoInicial(){
             camisas.push(psg3)
 
 
-                                let realmadrid = { 
+        let realmadrid = { 
 
-                                    miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
-                                    miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
-                                    miniaturaTres: `../IMG/camisaRealMadrid2.png`,        
-                                    principalImg: `../IMG/camisaRealMadrid1.png`,
-                            
-                                    camisaNome: "Camisa do Real Madrid",
-                                    camisaPrecoCortado: "R$199,99",
-                                    camisaPreco: "R$179,99",
-                            
-                                    descricaoTime: "RealMadrid",
-                                    descricaoMarca: "Adidas",
-                                    descricaoMaterial: "Poliéster",
-                                    descricaoGarantia: "Contra defeito de fabricação",
-                                    descricaoPatrocinio: "Nenhum",
-                                    descricaoCor: "Branco",
-                            
-                                    similares1: "../IMG/camisaFlamengo1.png",
-                                    similares2: "../IMG/camisaArgentina1.png",
-                                    similares3: "../IMG/camisaInternacional1.png",
-                                    similares4: "../IMG/camisaArgentina3.png",
-                            
-                                    variacao: 1
-                                }
-                            
-                                    camisas.push(realmadrid)
-                                
-                                
-                                let realmadrid2 = { 
-                            
-                                    miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
-                                    miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
-                                    miniaturaTres: `../IMG/camisaRealMadrid3.png`,        
-                                    principalImg: `../IMG/camisaRealMadrid2.png`,
-                            
-                                    camisaNome: "Camisa do Real Madrid",
-                                    camisaPrecoCortado: "R$199,99",
-                                    camisaPreco: "R$179,99",
-                            
-                                    descricaoTime: "RealMadrid2",
-                                    descricaoMarca: "Adidas",
-                                    descricaoMaterial: "Poliéster",
-                                    descricaoGarantia: "Contra defeito de fabricação",
-                                    descricaoPatrocinio: "Nenhum",
-                                    descricaoCor: "Preto",
-                            
-                                    similares1: "../IMG/camisaFlamengo1.png",
-                                    similares2: "../IMG/camisaArgentina1.png",
-                                    similares3: "../IMG/camisaInternacional1.png",
-                                    similares4: "../IMG/camisaArgentina3.png",
-                                    
-                                    variacao: 2
-                                }
-                            
-                                    camisas.push(realmadrid2)
-                                
-                                
-                                
-                                let realmadrid3 = { 
-                            
-                                    miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
-                                    miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
-                                    miniaturaTres: `../IMG/camisaRealMadrid3.png`,        
-                                    principalImg: `../IMG/camisaRealMadrid3.png`,
-                            
-                                    camisaNome: "Camisa do Real Madrid",
-                                    camisaPrecoCortado: "R$199,99",
-                                    camisaPreco: "R$179,99",
-                            
-                                    descricaoTime: "RealMadrid3",
-                                    descricaoMarca: "Adidas",
-                                    descricaoMaterial: "Poliéster",
-                                    descricaoGarantia: "Contra defeito de fabricação",
-                                    descricaoPatrocinio: "Nenhum",
-                                    descricaoCor: "Vinho",
-                            
-                                    similares1: "../IMG/camisaFlamengo1.png",
-                                    similares2: "../IMG/camisaArgentina1.png",
-                                    similares3: "../IMG/camisaInternacional1.png",
-                                    similares4: "../IMG/camisaArgentina3.png",
-                                    
-                                    variacao: 3
-                                }
-                            
-                                    camisas.push(realmadrid3)
-
-
-                                    let corinthians = { 
-
-                                        miniaturaUm: `../IMG/camisaCorinthians1.png`,        
-                                        miniaturaDois: `../IMG/camisaCorinthians2.png`,        
-                                        miniaturaTres: `../IMG/camisaCorinthians3.png`,        
-                                        principalImg: `../IMG/camisaCorinthians1.png`,
-                                
-                                        camisaNome: "Camisa do Corinthians",
-                                        camisaPrecoCortado: "R$199,99",
-                                        camisaPreco: "R$179,99",
-                                
-                                        descricaoTime: "Corinthians",
-                                        descricaoMarca: "Adidas",
-                                        descricaoMaterial: "Poliéster",
-                                        descricaoGarantia: "Contra defeito de fabricação",
-                                        descricaoPatrocinio: "Nenhum",
-                                        descricaoCor: "Branco",
-                                
-                                        similares1: "../IMG/camisaFlamengo1.png",
-                                        similares2: "../IMG/camisaArgentina1.png",
-                                        similares3: "../IMG/camisaInternacional1.png",
-                                        similares4: "../IMG/camisaArgentina3.png",
-                                
-                                        variacao: 1
-                                    }
-                                
-                                        camisas.push(corinthians)
-                                    
-                                    
-                                    let corinthians2 = { 
-                                
-                                        miniaturaUm: `../IMG/camisaCorinthians1.png`,        
-                                        miniaturaDois: `../IMG/camisaCorinthians2.png`,        
-                                        miniaturaTres: `../IMG/camisaCorinthians3.png`,        
-                                        principalImg: `../IMG/camisaCorinthians2.png`,
-                                
-                                        camisaNome: "Camisa do Corinthians",
-                                        camisaPrecoCortado: "R$199,99",
-                                        camisaPreco: "R$179,99",
-                                
-                                        descricaoTime: "Corinthians2",
-                                        descricaoMarca: "Adidas",
-                                        descricaoMaterial: "Poliéster",
-                                        descricaoGarantia: "Contra defeito de fabricação",
-                                        descricaoPatrocinio: "Nenhum",
-                                        descricaoCor: "Preto",
-                                
-                                        similares1: "../IMG/camisaFlamengo1.png",
-                                        similares2: "../IMG/camisaArgentina1.png",
-                                        similares3: "../IMG/camisaInternacional1.png",
-                                        similares4: "../IMG/camisaArgentina3.png",
-                                        
-                                        variacao: 2
-                                    }
-                                
-                                        camisas.push(corinthians2)
-                                    
-                                    
-                                    
-                                    let corinthians3 = { 
-                                
-                                        miniaturaUm: `../IMG/camisaCorinthians1.png`,        
-                                        miniaturaDois: `../IMG/camisaCorinthians2.png`,        
-                                        miniaturaTres: `../IMG/camisaCorinthians3.png`,        
-                                        principalImg: `../IMG/camisaCorinthians3.png`,
-                                
-                                        camisaNome: "Camisa do Corinthians",
-                                        camisaPrecoCortado: "R$199,99",
-                                        camisaPreco: "R$179,99",
-                                
-                                        descricaoTime: "Corinthians3",
-                                        descricaoMarca: "Adidas",
-                                        descricaoMaterial: "Poliéster",
-                                        descricaoGarantia: "Contra defeito de fabricação",
-                                        descricaoPatrocinio: "Nenhum",
-                                        descricaoCor: "Vinho",
-                                
-                                        similares1: "../IMG/camisaFlamengo1.png",
-                                        similares2: "../IMG/camisaArgentina1.png",
-                                        similares3: "../IMG/camisaInternacional1.png",
-                                        similares4: "../IMG/camisaArgentina3.png",
-                                        
-                                        variacao: 3
-                                    }
-                                
-                                        camisas.push(corinthians3)
+            miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
+            miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
+            miniaturaTres: `../IMG/camisaRealMadrid3.png`,        
+            principalImg: `../IMG/camisaRealMadrid1.png`,
+    
+            camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "RealMadrid",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(realmadrid)
+        
+        
+        let realmadrid2 = { 
+    
+            miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
+            miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
+            miniaturaTres: `../IMG/camisaRealMadrid3.png`,        
+            principalImg: `../IMG/camisaRealMadrid2.png`,
+    
+            camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "RealMadrid2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(realmadrid2)
+        
+        
+        
+        let realmadrid3 = { 
+    
+            miniaturaUm: `../IMG/camisaRealMadrid1.png`,        
+            miniaturaDois: `../IMG/camisaRealMadrid2.png`,        
+            miniaturaTres: `../IMG/camisaRealMadrid3.png`,        
+            principalImg: `../IMG/camisaRealMadrid3.png`,
+    
+            camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "RealMadrid3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(realmadrid3)
 
 
-                                        let flamengo = { 
+        let corinthians = { 
 
-                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                            principalImg: `../IMG/camisaFlamengo1.png`,
-                                    
-                                            camisaNome: "Camisa do Flamengo",
-                                            camisaPrecoCortado: "R$199,99",
-                                            camisaPreco: "R$179,99",
-                                    
-                                            descricaoTime: "Flamengo",
-                                            descricaoMarca: "Adidas",
-                                            descricaoMaterial: "Poliéster",
-                                            descricaoGarantia: "Contra defeito de fabricação",
-                                            descricaoPatrocinio: "Nenhum",
-                                            descricaoCor: "Branco",
-                                    
-                                            similares1: "../IMG/camisaFlamengo1.png",
-                                            similares2: "../IMG/camisaArgentina1.png",
-                                            similares3: "../IMG/camisaInternacional1.png",
-                                            similares4: "../IMG/camisaArgentina3.png",
-                                    
-                                            variacao: 1
-                                        }
-                                    
-                                            camisas.push(flamengo)
-                                        
-                                        
-                                        let flamengo2 = { 
-                                    
-                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                            principalImg: `../IMG/camisaFlamengo2.png`,
-                                    
-                                            camisaNome: "Camisa do Flamengo",
-                                            camisaPrecoCortado: "R$199,99",
-                                            camisaPreco: "R$179,99",
-                                    
-                                            descricaoTime: "Flamengo2",
-                                            descricaoMarca: "Adidas",
-                                            descricaoMaterial: "Poliéster",
-                                            descricaoGarantia: "Contra defeito de fabricação",
-                                            descricaoPatrocinio: "Nenhum",
-                                            descricaoCor: "Preto",
-                                    
-                                            similares1: "../IMG/camisaFlamengo1.png",
-                                            similares2: "../IMG/camisaArgentina1.png",
-                                            similares3: "../IMG/camisaInternacional1.png",
-                                            similares4: "../IMG/camisaArgentina3.png",
-                                            
-                                            variacao: 2
-                                        }
-                                    
-                                            camisas.push(flamengo2)
-                                        
-                                        
-                                        
-                                        let flamengo3 = { 
-                                    
-                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                            principalImg: `../IMG/camisaFlamengo3.png`,
-                                    
-                                            camisaNome: "Camisa do Flamengo",
-                                            camisaPrecoCortado: "R$199,99",
-                                            camisaPreco: "R$179,99",
-                                    
-                                            descricaoTime: "Flamengo3",
-                                            descricaoMarca: "Adidas",
-                                            descricaoMaterial: "Poliéster",
-                                            descricaoGarantia: "Contra defeito de fabricação",
-                                            descricaoPatrocinio: "Nenhum",
-                                            descricaoCor: "Vinho",
-                                    
-                                            similares1: "../IMG/camisaFlamengo1.png",
-                                            similares2: "../IMG/camisaArgentina1.png",
-                                            similares3: "../IMG/camisaInternacional1.png",
-                                            similares4: "../IMG/camisaArgentina3.png",
-                                            
-                                            variacao: 3
-                                        }
-                                    
-                                            camisas.push(flamengo3)
+            miniaturaUm: `../IMG/camisaCorinthians1.png`,        
+            miniaturaDois: `../IMG/camisaCorinthians2.png`,        
+            miniaturaTres: `../IMG/camisaCorinthians3.png`,        
+            principalImg: `../IMG/camisaCorinthians1.png`,
+    
+            camisaNome: "Camisa do Corinthians",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Corinthians",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(corinthians)
+        
+        
+        let corinthians2 = { 
+    
+            miniaturaUm: `../IMG/camisaCorinthians1.png`,        
+            miniaturaDois: `../IMG/camisaCorinthians2.png`,        
+            miniaturaTres: `../IMG/camisaCorinthians3.png`,        
+            principalImg: `../IMG/camisaCorinthians2.png`,
+    
+            camisaNome: "Camisa do Corinthians",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Corinthians2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(corinthians2)
+        
+        
+        
+        let corinthians3 = { 
+    
+            miniaturaUm: `../IMG/camisaCorinthians1.png`,        
+            miniaturaDois: `../IMG/camisaCorinthians2.png`,        
+            miniaturaTres: `../IMG/camisaCorinthians3.png`,        
+            principalImg: `../IMG/camisaCorinthians3.png`,
+    
+            camisaNome: "Camisa do Corinthians",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Corinthians3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(corinthians3)
 
-                                            let fluminense = { 
 
-                                                miniaturaUm: `../IMG/camisaFluminense1.png`,        
-                                                miniaturaDois: `../IMG/camisaFluminense2.png`,        
-                                                miniaturaTres: `../IMG/camisaFluminense3.png`,        
-                                                principalImg: `../IMG/camisaFluminense1.png`,
-                                        
-                                                camisaNome: "Camisa do Fluminense",
-                                                camisaPrecoCortado: "R$199,99",
-                                                camisaPreco: "R$179,99",
-                                        
-                                                descricaoTime: "Fluminense",
-                                                descricaoMarca: "Adidas",
-                                                descricaoMaterial: "Poliéster",
-                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                descricaoPatrocinio: "Nenhum",
-                                                descricaoCor: "Branco",
-                                        
-                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                similares2: "../IMG/camisaArgentina1.png",
-                                                similares3: "../IMG/camisaInternacional1.png",
-                                                similares4: "../IMG/camisaArgentina3.png",
-                                        
-                                                variacao: 1
-                                            }
-                                        
-                                                camisas.push(fluminense)
-                                            
-                                            
-                                            let fluminense2 = { 
-                                        
-                                                miniaturaUm: `../IMG/camisaFluminense1.png`,        
-                                                miniaturaDois: `../IMG/camisaFluminense2.png`,        
-                                                miniaturaTres: `../IMG/camisaFluminense3.png`,        
-                                                principalImg: `../IMG/camisaFluminense2.png`,
-                                        
-                                                camisaNome: "Camisa do Fluminense",
-                                                camisaPrecoCortado: "R$199,99",
-                                                camisaPreco: "R$179,99",
-                                        
-                                                descricaoTime: "Fluminense2",
-                                                descricaoMarca: "Adidas",
-                                                descricaoMaterial: "Poliéster",
-                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                descricaoPatrocinio: "Nenhum",
-                                                descricaoCor: "Preto",
-                                        
-                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                similares2: "../IMG/camisaArgentina1.png",
-                                                similares3: "../IMG/camisaInternacional1.png",
-                                                similares4: "../IMG/camisaArgentina3.png",
-                                                
-                                                variacao: 2
-                                            }
-                                        
-                                                camisas.push(fluminense2)
-                                            
-                                            
-                                            
-                                            let fluminense3 = { 
-                                        
-                                                miniaturaUm: `../IMG/camisaFluminense1.png`,        
-                                                miniaturaDois: `../IMG/camisaFluminense2.png`,        
-                                                miniaturaTres: `../IMG/camisaFluminense3.png`,        
-                                                principalImg: `../IMG/camisaFluminense3.png`,
-                                        
-                                                camisaNome: "Camisa do Fluminense",
-                                                camisaPrecoCortado: "R$199,99",
-                                                camisaPreco: "R$179,99",
-                                        
-                                                descricaoTime: "Fluminense3",
-                                                descricaoMarca: "Adidas",
-                                                descricaoMaterial: "Poliéster",
-                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                descricaoPatrocinio: "Nenhum",
-                                                descricaoCor: "Vinho",
-                                        
-                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                similares2: "../IMG/camisaArgentina1.png",
-                                                similares3: "../IMG/camisaInternacional1.png",
-                                                similares4: "../IMG/camisaArgentina3.png",
-                                                
-                                                variacao: 3
-                                            }
-                                        
-                                                camisas.push(fluminense3)
-/*
-                                                let flamengo = { 
+        let flamengo = { 
 
-                                                    miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                    miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                    miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                    principalImg: `../IMG/camisaFlamengo1.png`,
-                                            
-                                                    camisaNome: "Camisa do Flamengo",
-                                                    camisaPrecoCortado: "R$199,99",
-                                                    camisaPreco: "R$179,99",
-                                            
-                                                    descricaoTime: "Flamengo",
-                                                    descricaoMarca: "Adidas",
-                                                    descricaoMaterial: "Poliéster",
-                                                    descricaoGarantia: "Contra defeito de fabricação",
-                                                    descricaoPatrocinio: "Nenhum",
-                                                    descricaoCor: "Branco",
-                                            
-                                                    similares1: "../IMG/camisaFlamengo1.png",
-                                                    similares2: "../IMG/camisaArgentina1.png",
-                                                    similares3: "../IMG/camisaInternacional1.png",
-                                                    similares4: "../IMG/camisaArgentina3.png",
-                                            
-                                                    variacao: 1
-                                                }
-                                            
-                                                    camisas.push(flamengo)
-                                                
-                                                
-                                                let flamengo2 = { 
-                                            
-                                                    miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                    miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                    miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                    principalImg: `../IMG/camisaFlamengo2.png`,
-                                            
-                                                    camisaNome: "Camisa do Flamengo",
-                                                    camisaPrecoCortado: "R$199,99",
-                                                    camisaPreco: "R$179,99",
-                                            
-                                                    descricaoTime: "Flamengo2",
-                                                    descricaoMarca: "Adidas",
-                                                    descricaoMaterial: "Poliéster",
-                                                    descricaoGarantia: "Contra defeito de fabricação",
-                                                    descricaoPatrocinio: "Nenhum",
-                                                    descricaoCor: "Preto",
-                                            
-                                                    similares1: "../IMG/camisaFlamengo1.png",
-                                                    similares2: "../IMG/camisaArgentina1.png",
-                                                    similares3: "../IMG/camisaInternacional1.png",
-                                                    similares4: "../IMG/camisaArgentina3.png",
-                                                    
-                                                    variacao: 2
-                                                }
-                                            
-                                                    camisas.push(flamengo2)
-                                                
-                                                
-                                                
-                                                let flamengo3 = { 
-                                            
-                                                    miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                    miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                    miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                    principalImg: `../IMG/camisaFlamengo3.png`,
-                                            
-                                                    camisaNome: "Camisa do Flamengo",
-                                                    camisaPrecoCortado: "R$199,99",
-                                                    camisaPreco: "R$179,99",
-                                            
-                                                    descricaoTime: "Flamengo3",
-                                                    descricaoMarca: "Adidas",
-                                                    descricaoMaterial: "Poliéster",
-                                                    descricaoGarantia: "Contra defeito de fabricação",
-                                                    descricaoPatrocinio: "Nenhum",
-                                                    descricaoCor: "Vinho",
-                                            
-                                                    similares1: "../IMG/camisaFlamengo1.png",
-                                                    similares2: "../IMG/camisaArgentina1.png",
-                                                    similares3: "../IMG/camisaInternacional1.png",
-                                                    similares4: "../IMG/camisaArgentina3.png",
-                                                    
-                                                    variacao: 3
-                                                }
-                                            
-                                                    camisas.push(flamengo3)
+            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
+            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
+            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
+            principalImg: `../IMG/camisaFlamengo1.png`,
+    
+            camisaNome: "Camisa do Flamengo",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Flamengo",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(flamengo)
+        
+        
+        let flamengo2 = { 
+    
+            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
+            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
+            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
+            principalImg: `../IMG/camisaFlamengo2.png`,
+    
+            camisaNome: "Camisa do Flamengo",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Flamengo2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(flamengo2)
+        
+        
+        
+        let flamengo3 = { 
+    
+            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
+            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
+            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
+            principalImg: `../IMG/camisaFlamengo3.png`,
+    
+            camisaNome: "Camisa do Flamengo",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Flamengo3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(flamengo3)
 
-                                                    let flamengo = { 
+        let fluminense = { 
 
-                                                        miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                        miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                        miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                        principalImg: `../IMG/camisaFlamengo1.png`,
-                                                
-                                                        camisaNome: "Camisa do Flamengo",
-                                                        camisaPrecoCortado: "R$199,99",
-                                                        camisaPreco: "R$179,99",
-                                                
-                                                        descricaoTime: "Flamengo",
-                                                        descricaoMarca: "Adidas",
-                                                        descricaoMaterial: "Poliéster",
-                                                        descricaoGarantia: "Contra defeito de fabricação",
-                                                        descricaoPatrocinio: "Nenhum",
-                                                        descricaoCor: "Branco",
-                                                
-                                                        similares1: "../IMG/camisaFlamengo1.png",
-                                                        similares2: "../IMG/camisaArgentina1.png",
-                                                        similares3: "../IMG/camisaInternacional1.png",
-                                                        similares4: "../IMG/camisaArgentina3.png",
-                                                
-                                                        variacao: 1
-                                                    }
-                                                
-                                                        camisas.push(flamengo)
-                                                    
-                                                    
-                                                    let flamengo2 = { 
-                                                
-                                                        miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                        miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                        miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                        principalImg: `../IMG/camisaFlamengo2.png`,
-                                                
-                                                        camisaNome: "Camisa do Flamengo",
-                                                        camisaPrecoCortado: "R$199,99",
-                                                        camisaPreco: "R$179,99",
-                                                
-                                                        descricaoTime: "Flamengo2",
-                                                        descricaoMarca: "Adidas",
-                                                        descricaoMaterial: "Poliéster",
-                                                        descricaoGarantia: "Contra defeito de fabricação",
-                                                        descricaoPatrocinio: "Nenhum",
-                                                        descricaoCor: "Preto",
-                                                
-                                                        similares1: "../IMG/camisaFlamengo1.png",
-                                                        similares2: "../IMG/camisaArgentina1.png",
-                                                        similares3: "../IMG/camisaInternacional1.png",
-                                                        similares4: "../IMG/camisaArgentina3.png",
-                                                        
-                                                        variacao: 2
-                                                    }
-                                                
-                                                        camisas.push(flamengo2)
-                                                    
-                                                    
-                                                    
-                                                    let flamengo3 = { 
-                                                
-                                                        miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                        miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                        miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                        principalImg: `../IMG/camisaFlamengo3.png`,
-                                                
-                                                        camisaNome: "Camisa do Flamengo",
-                                                        camisaPrecoCortado: "R$199,99",
-                                                        camisaPreco: "R$179,99",
-                                                
-                                                        descricaoTime: "Flamengo3",
-                                                        descricaoMarca: "Adidas",
-                                                        descricaoMaterial: "Poliéster",
-                                                        descricaoGarantia: "Contra defeito de fabricação",
-                                                        descricaoPatrocinio: "Nenhum",
-                                                        descricaoCor: "Vinho",
-                                                
-                                                        similares1: "../IMG/camisaFlamengo1.png",
-                                                        similares2: "../IMG/camisaArgentina1.png",
-                                                        similares3: "../IMG/camisaInternacional1.png",
-                                                        similares4: "../IMG/camisaArgentina3.png",
-                                                        
-                                                        variacao: 3
-                                                    }
-                                                
-                                                        camisas.push(flamengo3)
+            miniaturaUm: `../IMG/camisaFluminense1.png`,        
+            miniaturaDois: `../IMG/camisaFluminense2.png`,        
+            miniaturaTres: `../IMG/camisaFluminense3.png`,        
+            principalImg: `../IMG/camisaFluminense1.png`,
+    
+            camisaNome: "Camisa do Fluminense",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Fluminense",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(fluminense)
+        
+        
+        let fluminense2 = { 
+    
+            miniaturaUm: `../IMG/camisaFluminense1.png`,        
+            miniaturaDois: `../IMG/camisaFluminense2.png`,        
+            miniaturaTres: `../IMG/camisaFluminense3.png`,        
+            principalImg: `../IMG/camisaFluminense2.png`,
+    
+            camisaNome: "Camisa do Fluminense",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Fluminense2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(fluminense2)
+        
+        
+        
+        let fluminense3 = { 
+    
+            miniaturaUm: `../IMG/camisaFluminense1.png`,        
+            miniaturaDois: `../IMG/camisaFluminense2.png`,        
+            miniaturaTres: `../IMG/camisaFluminense3.png`,        
+            principalImg: `../IMG/camisaFluminense3.png`,
+    
+            camisaNome: "Camisa do Fluminense",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Fluminense3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(fluminense3)
 
-                                                        let flamengo = { 
+        let grêmio = { 
 
-                                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                            principalImg: `../IMG/camisaFlamengo1.png`,
-                                                    
-                                                            camisaNome: "Camisa do Flamengo",
-                                                            camisaPrecoCortado: "R$199,99",
-                                                            camisaPreco: "R$179,99",
-                                                    
-                                                            descricaoTime: "Flamengo",
-                                                            descricaoMarca: "Adidas",
-                                                            descricaoMaterial: "Poliéster",
-                                                            descricaoGarantia: "Contra defeito de fabricação",
-                                                            descricaoPatrocinio: "Nenhum",
-                                                            descricaoCor: "Branco",
-                                                    
-                                                            similares1: "../IMG/camisaFlamengo1.png",
-                                                            similares2: "../IMG/camisaArgentina1.png",
-                                                            similares3: "../IMG/camisaInternacional1.png",
-                                                            similares4: "../IMG/camisaArgentina3.png",
-                                                    
-                                                            variacao: 1
-                                                        }
-                                                    
-                                                            camisas.push(flamengo)
-                                                        
-                                                        
-                                                        let flamengo2 = { 
-                                                    
-                                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                            principalImg: `../IMG/camisaFlamengo2.png`,
-                                                    
-                                                            camisaNome: "Camisa do Flamengo",
-                                                            camisaPrecoCortado: "R$199,99",
-                                                            camisaPreco: "R$179,99",
-                                                    
-                                                            descricaoTime: "Flamengo2",
-                                                            descricaoMarca: "Adidas",
-                                                            descricaoMaterial: "Poliéster",
-                                                            descricaoGarantia: "Contra defeito de fabricação",
-                                                            descricaoPatrocinio: "Nenhum",
-                                                            descricaoCor: "Preto",
-                                                    
-                                                            similares1: "../IMG/camisaFlamengo1.png",
-                                                            similares2: "../IMG/camisaArgentina1.png",
-                                                            similares3: "../IMG/camisaInternacional1.png",
-                                                            similares4: "../IMG/camisaArgentina3.png",
-                                                            
-                                                            variacao: 2
-                                                        }
-                                                    
-                                                            camisas.push(flamengo2)
-                                                        
-                                                        
-                                                        
-                                                        let flamengo3 = { 
-                                                    
-                                                            miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                            miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                            miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                            principalImg: `../IMG/camisaFlamengo3.png`,
-                                                    
-                                                            camisaNome: "Camisa do Flamengo",
-                                                            camisaPrecoCortado: "R$199,99",
-                                                            camisaPreco: "R$179,99",
-                                                    
-                                                            descricaoTime: "Flamengo3",
-                                                            descricaoMarca: "Adidas",
-                                                            descricaoMaterial: "Poliéster",
-                                                            descricaoGarantia: "Contra defeito de fabricação",
-                                                            descricaoPatrocinio: "Nenhum",
-                                                            descricaoCor: "Vinho",
-                                                    
-                                                            similares1: "../IMG/camisaFlamengo1.png",
-                                                            similares2: "../IMG/camisaArgentina1.png",
-                                                            similares3: "../IMG/camisaInternacional1.png",
-                                                            similares4: "../IMG/camisaArgentina3.png",
-                                                            
-                                                            variacao: 3
-                                                        }
-                                                    
-                                                            camisas.push(flamengo3)
+            miniaturaUm: `../IMG/camisaGremio1.png`,        
+            miniaturaDois: `../IMG/camisaGremio2.png`,        
+            miniaturaTres: `../IMG/camisaGremio3.png`,        
+            principalImg: `../IMG/camisaGremio1.png`,
+    
+            camisaNome: "Camisa do Grêmio",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Grêmio",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(grêmio)
+        
+        
+        let grêmio2 = { 
+    
+            miniaturaUm: `../IMG/camisaGremio1.png`,        
+            miniaturaDois: `../IMG/camisaGremio2.png`,        
+            miniaturaTres: `../IMG/camisaGremio3.png`,        
+            principalImg: `../IMG/camisaGremio2.png`,
+    
+            camisaNome: "Camisa do Atletico Mineiro",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Gremio2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(grêmio2)
+        
+        
+        
+        let atleticoMineiro3 = { 
+    
+            miniaturaUm: `../IMG/camisaGremio1.png`,        
+            miniaturaDois: `../IMG/camisaGremio2.png`,        
+            miniaturaTres: `../IMG/camisaGremio3.png`,        
+            principalImg: `../IMG/camisaGremio3.png`,
+    
+            camisaNome: "Camisa do Atletico Mineiro",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Gremio3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(atleticoMineiro3)
 
-                                                            let flamengo = { 
+        let internacional = { 
 
-                                                                miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                                miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                                miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                                principalImg: `../IMG/camisaFlamengo1.png`,
-                                                        
-                                                                camisaNome: "Camisa do Flamengo",
-                                                                camisaPrecoCortado: "R$199,99",
-                                                                camisaPreco: "R$179,99",
-                                                        
-                                                                descricaoTime: "Flamengo",
-                                                                descricaoMarca: "Adidas",
-                                                                descricaoMaterial: "Poliéster",
-                                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                                descricaoPatrocinio: "Nenhum",
-                                                                descricaoCor: "Branco",
-                                                        
-                                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                                similares2: "../IMG/camisaArgentina1.png",
-                                                                similares3: "../IMG/camisaInternacional1.png",
-                                                                similares4: "../IMG/camisaArgentina3.png",
-                                                        
-                                                                variacao: 1
-                                                            }
-                                                        
-                                                                camisas.push(flamengo)
-                                                            
-                                                            
-                                                            let flamengo2 = { 
-                                                        
-                                                                miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                                miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                                miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                                principalImg: `../IMG/camisaFlamengo2.png`,
-                                                        
-                                                                camisaNome: "Camisa do Flamengo",
-                                                                camisaPrecoCortado: "R$199,99",
-                                                                camisaPreco: "R$179,99",
-                                                        
-                                                                descricaoTime: "Flamengo2",
-                                                                descricaoMarca: "Adidas",
-                                                                descricaoMaterial: "Poliéster",
-                                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                                descricaoPatrocinio: "Nenhum",
-                                                                descricaoCor: "Preto",
-                                                        
-                                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                                similares2: "../IMG/camisaArgentina1.png",
-                                                                similares3: "../IMG/camisaInternacional1.png",
-                                                                similares4: "../IMG/camisaArgentina3.png",
-                                                                
-                                                                variacao: 2
-                                                            }
-                                                        
-                                                                camisas.push(flamengo2)
-                                                            
-                                                            
-                                                            
-                                                            let flamengo3 = { 
-                                                        
-                                                                miniaturaUm: `../IMG/camisaFlamengo1.png`,        
-                                                                miniaturaDois: `../IMG/camisaFlamengo2.png`,        
-                                                                miniaturaTres: `../IMG/camisaFlamengo3.png`,        
-                                                                principalImg: `../IMG/camisaFlamengo3.png`,
-                                                        
-                                                                camisaNome: "Camisa do Flamengo",
-                                                                camisaPrecoCortado: "R$199,99",
-                                                                camisaPreco: "R$179,99",
-                                                        
-                                                                descricaoTime: "Flamengo3",
-                                                                descricaoMarca: "Adidas",
-                                                                descricaoMaterial: "Poliéster",
-                                                                descricaoGarantia: "Contra defeito de fabricação",
-                                                                descricaoPatrocinio: "Nenhum",
-                                                                descricaoCor: "Vinho",
-                                                        
-                                                                similares1: "../IMG/camisaFlamengo1.png",
-                                                                similares2: "../IMG/camisaArgentina1.png",
-                                                                similares3: "../IMG/camisaInternacional1.png",
-                                                                similares4: "../IMG/camisaArgentina3.png",
-                                                                
-                                                                variacao: 3
-                                                            }
-                                                        
-                                                                camisas.push(flamengo3)
-                    */
+            miniaturaUm: `../IMG/camisaInternacional1.png`,        
+            miniaturaDois: `../IMG/camisaInternacional2.png`,        
+            miniaturaTres: `../IMG/camisaInternacional3.png`,        
+            principalImg: `../IMG/camisaInternacional1.png`,
+    
+            camisaNome: "Camisa do Internacional",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Internacional",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(internacional)
+        
+        
+        let internacional2 = { 
+    
+            miniaturaUm: `../IMG/camisaInternacional1.png`,        
+            miniaturaDois: `../IMG/camisaInternacional2.png`,        
+            miniaturaTres: `../IMG/camisaInternacional3.png`,        
+            principalImg: `../IMG/camisaInternacional2.png`,
+    
+            camisaNome: "Camisa do Internacional",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Internacional2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(internacional2)
+        
+        
+        
+        let internacional3 = { 
+    
+            miniaturaUm: `../IMG/camisaInternacional1.png`,        
+            miniaturaDois: `../IMG/camisaInternacional2.png`,        
+            miniaturaTres: `../IMG/camisaInternacional3.png`,        
+            principalImg: `../IMG/camisaInternacional3.png`,
+    
+            camisaNome: "Camisa do Internacional",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Internacional3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(internacional3)
+
+        let palmeiras = { 
+
+            miniaturaUm: `../IMG/camisaPalmeiras1.png`,        
+            miniaturaDois: `../IMG/camisaPalmeiras2.png`,        
+            miniaturaTres: `../IMG/camisaPalmeiras3.png`,        
+            principalImg: `../IMG/camisaPalmeiras1.png`,
+    
+            camisaNome: "Camisa do Palmeiras",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Palmeiras",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(palmeiras)
+        
+        
+        let palmeiras2 = { 
+    
+            miniaturaUm: `../IMG/camisaPalmeiras1.png`,        
+            miniaturaDois: `../IMG/camisaPalmeiras2.png`,        
+            miniaturaTres: `../IMG/camisaPalmeiras3.png`,        
+            principalImg: `../IMG/camisaPalmeiras2.png`,
+    
+            camisaNome: "Camisa do Palmeiras",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Palmeiras2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(palmeiras2)
+        
+        
+        
+        let palmeiras3 = { 
+    
+            miniaturaUm: `../IMG/camisaPalmeiras1.png`,        
+            miniaturaDois: `../IMG/camisaPalmeiras2.png`,        
+            miniaturaTres: `../IMG/camisaPalmeiras3.png`,        
+            principalImg: `../IMG/camisaPalmeiras3.png`,
+    
+            camisaNome: "Camisa do Palmeiras",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Palmeiras3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(palmeiras3)
+
+        let santos = { 
+
+            miniaturaUm: `../IMG/camisaSantos1.png`,        
+            miniaturaDois: `../IMG/camisaSantos2.png`,        
+            miniaturaTres: `../IMG/camisaSantos3.png`,        
+            principalImg: `../IMG/camisaSantos1.png`,
+    
+            camisaNome: "Camisa do Santos",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Santos",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+    
+            variacao: 1
+        }
+    
+            camisas.push(santos)
+        
+        
+        let santos2 = { 
+    
+            miniaturaUm: `../IMG/camisaSantos1.png`,        
+            miniaturaDois: `../IMG/camisaSantos2.png`,        
+            miniaturaTres: `../IMG/camisaSantos3.png`,        
+            principalImg: `../IMG/camisaSantos2.png`,
+    
+            camisaNome: "Camisa do Santos",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Santos2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 2
+        }
+    
+            camisas.push(santos2)
+        
+        
+        
+        let santos3 = { 
+    
+            miniaturaUm: `../IMG/camisaSantos1.png`,        
+            miniaturaDois: `../IMG/camisaSantos2.png`,        
+            miniaturaTres: `../IMG/camisaSantos3.png`,        
+            principalImg: `../IMG/camisaSantos3.png`,
+    
+            camisaNome: "Camisa do Santos",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
+    
+            descricaoTime: "Santos3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            
+            variacao: 3
+        }
+    
+            camisas.push(santos3)
+                    
     }
 
 function mudarVariacao(nova){
     camisas[camisaNaTela].variacao = nova;
     // colocar a camisa 
     principalImg.src = `../IMG/camisa${camisas[camisaNaTela].descricaoTime}${nova}.png`
+    
+}
 
+function salvaTime(time){
+
+    localStorage.setItem("Salva", JSON.stringify(time))
+    localStorage.setItem("Salva", JSON.stringify(clube))
+
+    window.location.href="../Página de Compra/compra.html"
 }
 
 
-function carregarCamisa(time){
+function puxaCamisa(){
+    
 
+    clube = JSON.parse(localStorage.getItem("Salva"))
+    alert(clube)
+    
     for(i=0; i<camisas.length; i++){
 
-
-        if(camisas[i].descricaoTime == time){
+        
+        if(camisas[i].descricaoTime == clube){
 
             camisaNaTela = i
             
@@ -1900,11 +1913,11 @@ function carregarCamisa(time){
             miniaturaDois.src = camisas[i].miniaturaDois
             miniaturaTres.src = camisas[i].miniaturaTres
             principalImg.src = camisas[i].principalImg
-
+            
             camisaNome.innerHTML = camisas[i].camisaNome
             camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
             camisaPreco.innerHTML = camisas[i].camisaPreco
-
+            
             descricaoTime.innerHTML = camisas[i].descricaoTime
             descricaoMarca.innerHTML = camisas[i].descricaoMarca
             descricaoMaterial.innerHTML = camisas[i].descricaoMarca
@@ -1918,36 +1931,41 @@ function carregarCamisa(time){
             similares4.src = "../IMG/camisaArgentina3.png"
         }
     }
-
-
-   
-
+    
 }
 
+function carregarCamisa(time){
+    
+    
+    for(i=0; i<camisas.length; i++){
 
+        
+        if(camisas[i].descricaoTime == time){
 
-function Alemanha1(){
+            camisaNaTela = i
+            
+            miniaturaUm.src = camisas[i].miniaturaUm
+            miniaturaDois.src = camisas[i].miniaturaDois
+            miniaturaTres.src = camisas[i].miniaturaTres
+            principalImg.src = camisas[i].principalImg
+            
+            camisaNome.innerHTML = camisas[i].camisaNome
+            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
+            camisaPreco.innerHTML = camisas[i].camisaPreco
+            
+            descricaoTime.innerHTML = camisas[i].descricaoTime
+            descricaoMarca.innerHTML = camisas[i].descricaoMarca
+            descricaoMaterial.innerHTML = camisas[i].descricaoMarca
+            descricaoGarantia.innerHTML = camisas[i].descricaoGarantia
+            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
+            descricaoCor.innerHTML = camisas[i].descricaoCor
 
-    // miniaturaUm.src = "../IMG/camisaAlemanha1.png"
-    miniaturaUm.src = `../IMG/camisaAlmanha1.png`
-    miniaturaDois.src = `../IMG/camisaAlmanha.png`
-    miniaturaTres.src = `../IMG/camisaAlmanha3.png`
-    principalImg.src = `../IMG/camisaAlmanha1.png`
-
-    camisaNome.innerHTML = "CAMISA da ALEMANHA"
-    camisaPrecoCortado.innerHTML = "R$199,99"
-    camisaPreco.innerHTML = "R$179,99"
-
-    descricaoTime.innerHTML = "<strong>Time:</strong>Alemanha"
-    descricaoMarca.innerHTML = "<strong>Marca:</strong>Adidas"
-    descricaoMaterial.innerHTML = "<strong>Material:</strong>Poliéster"
-    descricaoGarantia.innerHTML = "<strong>Garantia do Fabricante:</strong>Contra defeito de fabricação"
-    descricaoPatrocinio.innerHTML = "<strong>Patrocínio:</strong>Nenhum"
-    descricaoCor.innerHTML = "<strong>Cor Predominante:</strong>Branco"
-
-    similares1.src = "../IMG/camisaFlamengo1.png"
-    similares2.src = "../IMG/camisaArgentina1.png"
-    similares3.src = "../IMG/camisaInternacional1.png"
-    similares4.src = "../IMG/camisaArgentina3.png"
-
+            similares1.src = "../IMG/camisaFlamengo1.png"
+            similares2.src = "../IMG/camisaArgentina1.png"
+            similares3.src = "../IMG/camisaInternacional1.png"
+            similares4.src = "../IMG/camisaArgentina3.png"
+        }
+    }
+    
 }
+
