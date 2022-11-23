@@ -290,7 +290,7 @@ body{
 
 .maisVendidas{
 
-    height: 33%;
+    height: 40%;
     width: 90%;
     display: flex;
     align-items: center;
@@ -302,7 +302,7 @@ body{
 
 .mais-vendidas{
 
-    height: 97%;
+    height: 88%;
     width: 20%;
     background-color: rgb(221, 220, 220);
     margin-top: 2%;
@@ -360,8 +360,7 @@ body{
 
 #baixo{
 
-    height: 10%;
+    height: 15%;
     width: 100%;
     background-color: rgb(132, 0, 255);
-    margin-top: 2%;
 }
