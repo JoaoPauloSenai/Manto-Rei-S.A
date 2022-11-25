@@ -41,11 +41,12 @@ body{
 }
 
 #a-img{
-
+    
     height: 85%; 
     width: 55%; 
     margin-left: 20%;
 }
+
 
 #icone-manto-rei{
     
@@ -86,6 +87,7 @@ body{
     padding-left: 2%;
 
 }
+
 #pesquisa:focus{
 
     outline: none;
@@ -97,7 +99,6 @@ body{
     width: 4%; 
     margin-left: -5%;
 }
-
 
 #login{
 
@@ -122,15 +123,13 @@ body{
 
     height: 100%; 
     width: 100%; 
-    margin-left: 100%;
 
 }
 
 #carrinho-imagem{
 
-    height: 33%; 
-    width: 33%; 
-    margin-left: 40%;
+    height: 100%; 
+    width: 100%; 
 
 }
 
