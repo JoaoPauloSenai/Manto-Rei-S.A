@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manto Rei - Camisa da Alemanha</title>
+    <title>Manto Rei</title>
     <link rel="stylesheet" href="compra.css">
     <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
 </head>
@@ -21,7 +21,7 @@
                 <a id="a-img" href="../HomePage/HomePage.html">
                     <img src="../IMG/logo-nova.png" id="icone-manto-rei">
                 </a>
-                    <label id="nome-logo">Manto Rei</label>
+                    <label id="nome-logo" onclick="linkPaginaPrincipal()">Manto Rei</label>
 
             </div>
 
@@ -34,17 +34,21 @@
 
             <div id="login">
 
-                <a href="atendimento.com">
-                    <img id="prancheta" src="../IMG/download.png">
-                </a>
+                <div id="iconesLogin">
 
-                <a href="../CadastroCliente/CadastroCliente.html">
-                    <img id="login-imagem" src="../IMG/login_branco.png">
-                </a>
+                    <img id="prancheta" src="../IMG/download.png" onclick="linkCadastroProdutos()">
+                
+                
+                    <img id="login-imagem" src="../IMG/login_branco.png" onclick="linkLogin()">
+                
+                
+                    <img id="carrinho-imagem" src="../IMG/carrinho_branco.png" onclick="linkCarrinho()">
 
-                <a href="carrinho.com">
-                    <img id="carrinho-imagem" src="../IMG/carrinho_branco.png">
-                </a>
+                </div>    
+
+                <div id="nomeUsuario">
+
+                </div>
 
             </div>
 
@@ -78,7 +82,7 @@
                 </li>
                 <li><a href="#">Brasileiros</a>
                     <ul>
-                        <li><a href="#" onclick="carregarCamisa('Corinthians')">Corinthias</a></li>
+                        <li><a href="#" onclick="carregarCamisa('Corinthians')">Corinthians</a></li>
                         <li><a href="#" onclick="carregarCamisa('Flamengo')">Flamengo</a></li>
                         <li><a href="#" onclick="carregarCamisa('Fluminense')">Fluminense</a></li>
                         <li><a href="#" onclick="carregarCamisa('Fortaleza')">Fortaleza</a></li>
@@ -130,43 +134,43 @@
 
                 <div id="meio-esquerda-baixo">
 
-                    <ul class="atributtes">
+                    <div id="meio-esquerda-baixo-esquerda">
 
-                        <strong>Time:</strong>
-                        <ul id="descricao-time">
-                              
-                        </ul>
+                        <ul class="atributtes">
 
-                        <strong>Marca:</strong>
-                        <ul id="marca">
-                              
-                        </ul>
-                    
-                    </ul>
-                    
-                    <ul class="atributtes">
-                        
+                            <strong>Time:</strong>
+                            <ul id="descricao-time">
+
+                            </ul>
+
+
                             <strong>Patrocínio:</strong>
-                        <ul id="patrocinio">
+                            <ul id="patrocinio">
                             
-                        </ul>
+                            </ul>
                         
-                        <strong>Cor Predominante:</strong>
-                        <ul id="cor-predominante">
-                            
                         </ul>
+                    
+                    </div>
+                    
+                    <div id="meio-esquerda-baixo-direita">
                         
-                    </ul>
-
-                    <ul class="atributtes">
-
-                        <strong>Garantia do Fabricante:</strong>
-                        <ul id="garantia">
-                            Contra defeito de fabricação 
+                        <ul class="atributtes">
                             
+                            <strong>Marca:</strong>
+                            <ul id="marca">
+                            
+                            </ul>
+
+                            <strong>Garantia do Fabricante:</strong>
+                            <ul id="garantia">
+                                Contra defeito de fabricação 
+
+                            </ul>
                         </ul>
 
-                    </ul>
+                    </div>
+
                 </div>
 
             </div>
@@ -188,9 +192,9 @@
 
                 <div id="meio-direita-meio">
 
-                    <button id="btP" class="btTamanhos">P</button>
-                    <button id="btM" class="btTamanhos">M</button>
-                    <button id="btG" class="btTamanhos">G</button>
+                    <button id="btP" class="btTamanhos" onclick="botaoAcionado('botaoP')">P</button>
+                    <button id="btM" class="btTamanhos" onclick="botaoAcionado('botaoM')">M</button>
+                    <button id="btG" class="btTamanhos" onclick="botaoAcionado('botaoG')">G</button>
 
                 </div> 
 

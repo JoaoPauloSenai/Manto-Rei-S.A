@@ -21,7 +21,7 @@
                 <a id="a-img" href="../HomePage/HomePage.html">
                     <img src="../IMG/logo-nova.png" id="icone-manto-rei">
                 </a>
-                    <label id="nome-logo">Manto Rei</label>
+                    <label id="nome-logo" onclick="linkPaginaPrincipal()">Manto Rei</label>
 
             </div>
 
@@ -34,15 +34,21 @@
 
             <div id="login">
 
-                
-                    <img id="atendimento-ao-cliente" src="../IMG/download.png" onclick="link">
-                
-                
-                    <img id="login-imagem" src="../IMG/login_branco.png" onclick="link">
-                
-                
-                    <img id="carrinho-imagem" src="../IMG/carrinho_roxo.png" onclick="link">
-                
+                    <div id="iconesLogin">
+
+                        <img id="prancheta" src="../IMG/download.png" onclick="linkCadastroProdutos()">
+                    
+                    
+                        <img id="login-imagem" src="../IMG/login_branco.png" onclick="linkLogin()">
+                    
+                    
+                        <img id="carrinho-imagem" src="../IMG/carrinho_branco.png" onclick="linkCarrinho()">
+
+                    </div>    
+
+                    <div id="nomeUsuario">
+
+                    </div>
 
             </div>
 
@@ -81,7 +87,7 @@
                 <li><a href="#">Brasileiros</a>
                     <ul>
 
-                        <li><a href="#" onclick="salvaTime('Corinthias')">Corinthias</a></li>
+                        <li><a href="#" onclick="salvaTime('Corinthians')" >Corinthians</a></li>
                         <li><a href="#" onclick="salvaTime('Flamengo')">Flamengo</a></li>
                         <li><a href="#" onclick="salvaTime('Fluminense')">Fluminense</a></li>
                         <li><a href="#" onclick="salvaTime('Fortaleza')">Fortaleza</a></li>

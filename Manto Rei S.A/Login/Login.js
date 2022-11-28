@@ -1,6 +1,6 @@
 let nome = document.getElementById("inputDadosCadastraisNome")
 let senha = document.getElementById("inputDadosCadastraisSenha")
-let vetor = []
+let nomeLogado = document.getElementById("nomeUsuario")
 
 function entrar() {
 
@@ -9,6 +9,10 @@ function entrar() {
     for (let i = 0; i < vetor.length; i++) {
 
         if (nome.value == vetor[i].username && senha.value == vetor[i].password) {
+
+            alert("Logou!")
+
+            nomeLogado.innerHTML = vetor[i].username
 
             window.location.href = "../HomePage/HomePage.html"
 
@@ -23,3 +27,4 @@ function LimpaInputs() {
     senha.value = ''
 
 }
+
