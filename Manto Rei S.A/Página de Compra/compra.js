@@ -247,7 +247,6 @@ function linkCarrinho(){
     window.location.href = "../Carrinho/carrinho.html"
 
 }
-
 function carregamentoInicial(){
 
     let alemanha = { 
@@ -347,6 +346,7 @@ function carregamentoInicial(){
         camisaNome: "Camisa da Argentina",
         camisaPrecoCortado: "R$349,99",
         camisaPreco: "R$249,99",
+        camisaPreco: "R$299,99",
 
         descricaoTime: "Argentina",
         descricaoMarca: "Adidas",
@@ -375,6 +375,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa da Argentina",
             camisaPrecoCortado: "R$349,99",
             camisaPreco: "R$249,99",
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Argentina2",
             descricaoMarca: "Adidas",
@@ -403,6 +404,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa da Argentina",
             camisaPrecoCortado: "",
             camisaPreco: "R$199,99",
+            camisaPrecoCortado: "349,00",
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Argentina3",
             descricaoMarca: "Adidas",
@@ -523,6 +526,7 @@ function carregamentoInicial(){
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Magenta",
     
@@ -552,6 +556,7 @@ function carregamentoInicial(){
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
@@ -582,6 +587,7 @@ function carregamentoInicial(){
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -605,11 +611,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da França",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$349,99",
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -634,11 +643,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da França",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$349,99",
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
@@ -664,11 +676,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da França",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$349,99",
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
     
@@ -692,11 +707,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da Holanda",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -721,11 +739,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da Holanda",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
@@ -751,11 +772,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa da Holanda",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
     
@@ -781,11 +805,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa de Portugal",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
 
@@ -810,11 +837,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa de Portugal",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
 
@@ -840,11 +870,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa de Portugal",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$299,99",
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
 
@@ -869,6 +902,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona",
             descricaoMarca: "Adidas",
@@ -876,6 +911,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Spotify",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -898,6 +935,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona2",
             descricaoMarca: "Adidas",
@@ -905,6 +944,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Spotify",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -928,6 +969,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona3",
             descricaoMarca: "Adidas",
@@ -935,6 +978,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Spotify",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -964,6 +1009,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "1&1",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -993,6 +1040,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "1&1",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1023,6 +1072,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "1&1",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1045,6 +1096,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Liverpool",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
 
             descricaoTime: "Liverpool",
             descricaoMarca: "Adidas",
@@ -1052,6 +1105,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Standard Chartered",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1081,6 +1136,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Standard Chartered",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1111,6 +1168,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Standard Chartered",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1132,6 +1191,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Manchester City",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity",
             descricaoMarca: "Adidas",
@@ -1139,6 +1200,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Etihad Airways",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1161,6 +1224,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do ManchesterCity",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity2",
             descricaoMarca: "Adidas",
@@ -1168,6 +1233,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Etihad Airways",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1191,6 +1258,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do ManchesterCity",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity3",
             descricaoMarca: "Adidas",
@@ -1198,6 +1267,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Etihad Airways",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1220,6 +1291,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do milan",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Milan",
             descricaoMarca: "Adidas",
@@ -1227,6 +1300,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1239,6 +1314,7 @@ function carregamentoInicial(){
             camisas.push(milan)
         
         
+        
         let milan2 = { 
     
             miniaturaUm: `../IMG/camisaMilan1.png`,        
@@ -1249,6 +1325,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do milan",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Milan2",
             descricaoMarca: "Adidas",
@@ -1256,6 +1334,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1265,7 +1345,9 @@ function carregamentoInicial(){
             variacao: 2
         }
     
+            camisas.push(mila2)
             camisas.push(milan2)
+        
         
         
         
@@ -1279,6 +1361,9 @@ function carregamentoInicial(){
             camisaNome: "Camisa do milan",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaNome: "Camisa do Milan",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Milan3",
             descricaoMarca: "Adidas",
@@ -1286,6 +1371,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1295,8 +1382,8 @@ function carregamentoInicial(){
             variacao: 3
         }
     
+            
             camisas.push(milan3)
-
 
 
 
@@ -1310,6 +1397,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do PSG",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
 
             descricaoTime: "PSG",
             descricaoMarca: "Adidas",
@@ -1317,6 +1406,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Accor Live Limitless",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1346,6 +1437,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Accor Live Limitless",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1376,6 +1469,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Nike",
+            descricaoPatrocinio: "Accor Live Limitless",
 
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1398,6 +1493,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Real Madrid",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid",
             descricaoMarca: "Adidas",
@@ -1405,6 +1502,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1427,6 +1525,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Real Madrid",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid2",
             descricaoMarca: "Adidas",
@@ -1434,6 +1534,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1457,6 +1558,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Real Madrid",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$249,99",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid3",
             descricaoMarca: "Adidas",
@@ -1464,6 +1567,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoPatrocinio: "Emirates",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1486,11 +1590,13 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Corinthians",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -1515,14 +1621,17 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Corinthians2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
+
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
             similares3: "../IMG/camisaInternacional1.png",
@@ -1545,11 +1654,13 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Corinthians3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
     
@@ -1574,6 +1685,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Flamengo",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Flamengo",
             descricaoMarca: "Adidas",
@@ -1603,6 +1716,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Flamengo",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Flamengo2",
             descricaoMarca: "Adidas",
@@ -1633,6 +1748,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Flamengo",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Flamengo3",
             descricaoMarca: "Adidas",
@@ -1661,6 +1778,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Fluminense",
             descricaoMarca: "nike",
@@ -1668,6 +1786,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Umbro",
+            descricaoPatrocinio: "Betano",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1690,6 +1810,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Fluminense2",
             descricaoMarca: "Adidas",
@@ -1697,6 +1818,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Umbro",
+            descricaoPatrocinio: "Betano",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1720,6 +1843,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Fluminense3",
             descricaoMarca: "Adidas",
@@ -1727,6 +1851,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Umbro",
+            descricaoPatrocinio: "Betano",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1748,11 +1874,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$159,99",
+            camisaPreco: "R$119,99",
     
             descricaoTime: "Fortaleza",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -1777,11 +1906,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$159,99",
+            camisaPreco: "R$119,99",
     
             descricaoTime: "Fortaleza2",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
@@ -1807,11 +1939,14 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Fortaleza",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$159,99",
+            camisaPreco: "R$119,99",
     
             descricaoTime: "Fortaleza3",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
     
@@ -1835,6 +1970,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Internacional",
             descricaoMarca: "Adidas",
@@ -1842,6 +1978,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoPatrocinio: "Banrisul",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1864,6 +2001,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Internacional2",
             descricaoMarca: "Adidas",
@@ -1871,6 +2009,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoPatrocinio: "Banrisul",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1894,6 +2033,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Internacional3",
             descricaoMarca: "Adidas",
@@ -1901,6 +2041,7 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoPatrocinio: "Banrisul",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1922,6 +2063,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Palmeiras",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Palmeiras",
             descricaoMarca: "Adidas",
@@ -1929,6 +2072,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Crefisa",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1951,6 +2096,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Palmeiras",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Palmeiras2",
             descricaoMarca: "Adidas",
@@ -1958,6 +2105,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Crefisa",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -1981,6 +2130,8 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Palmeiras",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPrecoCortado: "R$",
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Palmeiras3",
             descricaoMarca: "Adidas",
@@ -1988,6 +2139,8 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Puma",
+            descricaoPatrocinio: "Crefisa",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -2009,18 +2162,22 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Santos",
             descricaoMarca: "Adidas",
             descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
+            descricaoMarca: "Umbro",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
+            similares2: "../IMG/camisaCorinthians1.png",
             similares3: "../IMG/camisaInternacional1.png",
             similares4: "../IMG/camisaArgentina3.png",
+            similares4: "../IMG/camisaPalmeiras1.png",
     
             variacao: 1
         }
@@ -2038,6 +2195,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Santos2",
             descricaoMarca: "Adidas",
@@ -2045,17 +2203,21 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
+            descricaoMarca: "Umbro",
+            descricaoPatrocinio: "Sumup",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
+            similares2: "../IMG/camisaCorinthians1.png",
             similares3: "../IMG/camisaInternacional1.png",
             similares4: "../IMG/camisaArgentina3.png",
+            similares4: "../IMG/camisaPalmeiras1.png",
             
             variacao: 2
+            
         }
-    
-            camisas.push(santos2)
         
+        camisas.push(santos2)
         
         
         let santos3 = { 
@@ -2068,6 +2230,7 @@ function carregamentoInicial(){
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
             camisaPreco: "R$179,99",
+            camisaPreco: "R$149,99",
     
             descricaoTime: "Santos3",
             descricaoMarca: "Adidas",
@@ -2075,16 +2238,20 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
+            descricaoMarca: "Umbro",
+            descricaoPatrocinio: "Banco BMG",
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
+            similares2: "../IMG/camisaCorinthians1.png",
             similares3: "../IMG/camisaInternacional1.png",
             similares4: "../IMG/camisaArgentina3.png",
+            similares4: "../IMG/camisaPalmeiras1.png",
             
             variacao: 3
         }
     
             camisas.push(santos3)
                     
-    }
+}
     
