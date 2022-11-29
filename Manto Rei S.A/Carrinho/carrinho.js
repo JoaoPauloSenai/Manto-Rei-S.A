@@ -1,4 +1,5 @@
-
+let botaoAdicao = document.getElementById("btAdicao")
+let botaoSubtracao = document.getElementById("btSubtracao")
 
 
 
