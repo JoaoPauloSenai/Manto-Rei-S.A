@@ -1872,3 +1872,4 @@ function carregamentoInicial(){
             camisas.push(santos3)
                     
     }
+    
