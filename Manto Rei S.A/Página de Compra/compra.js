@@ -2130,13 +2130,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares2: "../IMG/camisaCorinthians1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            similares4: "../IMG/camisaPalmeiras1.png",
-    
             variacao: 1
         }
     
