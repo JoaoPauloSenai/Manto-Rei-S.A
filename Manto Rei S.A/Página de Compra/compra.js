@@ -34,6 +34,19 @@ let vetorVariacaoCamisa = []
 let camisas = []
 let camisaNaTela = null
 
+const imgs = ["../IMG/propaganda2.png","../IMG/propaganda.png", ]
+
+let divCarro = document.getElementById("img-propaganda") 
+let i = 0 
+let interval = setInterval(function(){
+if(i <= imgs.length - 1){
+    divCarro.src = imgs[i]
+}
+else{
+    i = 0
+}
+},1500);
+
 carregamentoInicial()
 
 
