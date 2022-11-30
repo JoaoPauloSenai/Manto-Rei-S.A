@@ -10,8 +10,7 @@
     <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="carrinho.css">
 </head>
-
-<body>
+<body onload="compraEfetuada()">
 
     <div id="container">
 
@@ -105,8 +104,123 @@
 
         <div id="fundo-carrinho">
 
-            <div id="carrinho">
+            <div id="div-carrinho">
 
+                <div id="compra">
+
+                    <div class="img-compra" id="compra-img">
+
+                        <img class="miniaturas-img-compra" id="img-miniatura-compra" src="">  
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor">
+
+                    </div>
+        
+                </div>
+
+                <div id="compra2">
+
+                    <div class="img-compra" id="compra-img2">
+
+                        <img class="miniaturas-img-compra" id="img-miniatura-compra" src="">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome2">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho2">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor2">
+
+                    </div>
+
+                </div>
+
+                <div id="compra3">
+
+                    <div class="img-compra" id="compra-img3">
+
+                        <img class="miniaturas-img-compra" id="img-miniatura-compra" src="">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome3">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho3">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor3">
+
+                    </div>
+
+                </div>
+
+                <div id="compra4">
+
+                    <div class="img-compra" id="compra-img4">
+
+                        <img class="miniaturas-img-compra" id="img-miniatura-compra" src="">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome4">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho4">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor4">
+
+                    </div>
+
+                </div>
+
+ 
+                <div id="compra5">
+
+                    <div class="img-compra" id="compra-img5"> 
+
+                        <img class="miniaturas-img-compra" id="img-miniatura-compra" src="">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome5">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho5">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor5">
+
+                    </div>
+
+                </div>
+
+                <div id="resultadoCompra">
+
+
+                </div>
 
             </div>
 
@@ -128,33 +242,45 @@
 
                 <div class="mais-vendidas">
                 
-                    <img class="img-produtos" src="../IMG/camisaHolanda3.png">
+                    <img class="img-produtos" src="../IMG/camisaBrasil2.png">
 
                     <div class="divisoria-produtos"></div>
                     
                     <div class="descricao-produto">
 
-                    </div>
-                </div>
-
-                <div class="mais-vendidas">
-
-                    <img class="img-produtos" src="../IMG/camisaRealMadrid1.png">
-
-                    <div class="divisoria-produtos"></div>
-
-                    <div class="descricao-produto">
+                        <label class="preco-real">Camisa do Brasil</label>
+                        <s><label class="diminuir-riscado">R$ 399,99</label></s>
+                        <label class="preco-real">R$ 349,99</label>
 
                     </div>
                 </div>
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaFlamengo1.png">
+                    <img class="img-produtos" src="../IMG/camisaFranca1.png">
 
                     <div class="divisoria-produtos"></div>
 
                     <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa da França</label>
+                        <s><label class="diminuir-riscado">R$ 349,99</label></s>
+                        <label class="preco-real">R$ 299,99</label>
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaBorussia1.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa do B. Dortmund</label>
+                        <s><label class="diminuir-riscado">R$ 199,99</label></s>
+                        <label class="preco-real">R$ 179,99</label>
 
                     </div>
                 </div>
@@ -167,11 +293,79 @@
 
                     <div class="descricao-produto">
 
+                        <label class="preco-real">Camisa do Liverpool</label>
+                        <s><label class="diminuir-riscado">R$ 249,99</label></s>
+                        <label class="preco-real">R$ 199,99</label>
+
                     </div>
                 </div>
 
             </div>
 
+
+            <div id="mesmaMarca">
+
+                <div class="mesma-marca">
+
+                    <img id="produtos-similares-um" class="img-produtos" src="../IMG/camisaAlemanha3.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa da Alemanha</label>
+                        <s><label class="diminuir-riscado">R$ 299,99</label></s>
+                        <label class="preco-real">R$ 249,99</label>
+
+                    </div>
+                </div>
+
+                <div class="mesma-marca">
+
+                    <img id="produtos-similares-dois" class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa do B. Dortmund</label>
+                        <s><label class="diminuir-riscado">R$ 199,99</label></s>
+                        <label class="preco-real">R$ 179,99</label>
+
+                    </div>
+                </div>
+
+                <div class="mesma-marca">
+
+                    <img id="produtos-similares-tres" class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa do B. Dortmund</label>
+                        <s><label class="diminuir-riscado">R$ 199,99</label></s>
+                        <label class="preco-real">R$ 179,99</label>
+
+                    </div>
+                </div>
+
+                <div class="mesma-marca">
+
+                    <img id="produtos-similares-quatro" class="img-produtos" src="../IMG/camisaLiverpool.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                        <label class="preco-real">Camisa do B. Dortmund</label>
+                        <s><label class="diminuir-riscado">R$ 199,99</label></s>
+                        <label class="preco-real">R$ 179,99</label>
+                
+                    </div>
+
+                </div>
+            </div>
         </div>
 
         <div id="baixo">
@@ -180,7 +374,7 @@
         </div>
 
         <script src="../Página de Compra/compra.js"></script>
-        <script src="carrinho.js"></script>
+        <script src="../Carrinho/carrinho.js"></script>
 
     </div>
 

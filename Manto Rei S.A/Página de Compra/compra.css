@@ -453,6 +453,27 @@ body{
 
 }
 
+#lbPreco1{
+
+    height: 10%;
+    width: 40%;
+    font-size: 180%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 10%;
+
+}
+
+#lbPreco2{
+
+    height: 10%;
+    width: 40%;
+    font-size: 180%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
 #lbTamanhos{
 
     height: 10%;
