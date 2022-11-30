@@ -543,7 +543,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-            camisaPreco: "R$240,00",
+            camisaPreco: "R$249,00",
     
             descricaoTime: "Coreia2",
             descricaoMarca: "Adidas",
@@ -574,7 +574,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-            camisaPreco: "R$240,00",
+            camisaPreco: "R$249,00",
     
             descricaoTime: "coreia3",
             descricaoMarca: "Adidas",
