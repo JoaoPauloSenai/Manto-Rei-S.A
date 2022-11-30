@@ -278,6 +278,14 @@ body{
     flex-direction: column;
 }
 
+.miniaturas-img-compra{
+
+    height: 80%;
+    width: 50%;
+    margin-top: 13%;
+    display: flex;
+}
+
 #compra{
 
     width: 100%;
@@ -316,7 +324,7 @@ body{
     height: 21%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
 }
 
 .img-compra{
@@ -324,6 +332,7 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 .nome-compra{
@@ -331,6 +340,10 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%;
+    margin-left: 3%;
 }
 
 .tamanho-compra{
@@ -338,6 +351,10 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%;
+    margin-left: 3%;
 
 }
 
@@ -347,6 +364,10 @@ body{
     height: 100%;
     display: flex;
 
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 3%;
 }
 
 #resultadoCompra{
@@ -390,12 +411,12 @@ body{
     font-weight: bold;
     align-items: center;
     margin-right: 55%;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 #sugestoes{
 
-    height: 100%;
+    height: 150%;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
@@ -415,7 +436,8 @@ body{
 
 #maisVendidas{
 
-    height: 60%;
+    margin-top: 4%;
+    height: 39%;
     width: 90%;
     display: flex;
     align-items: center;

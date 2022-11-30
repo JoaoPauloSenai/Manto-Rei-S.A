@@ -532,12 +532,9 @@ function carregamentoInicial(){
             camisaPreco: 249,
     
             descricaoTime: "Coreia",
-            descricaoMarca: "Adidas",
-            descricaoMaterial: "Poliéster",
-            descricaoGarantia: "Contra defeito de fabricação",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
-            descricaoCor: "Magenta",
+
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -559,11 +556,8 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-<<<<<<< HEAD
             camisaPreco: 249,
-=======
-            camisaPreco: "R$249,00",
->>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
+
     
             descricaoTime: "Coreia2",
             descricaoMarca: "Adidas",
@@ -594,19 +588,14 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-<<<<<<< HEAD
             camisaPreco: 249,
-=======
-            camisaPreco: "R$249,00",
->>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
+
     
             descricaoTime: "coreia3",
-            descricaoMarca: "Adidas",
-            descricaoMaterial: "Poliéster",
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
-            descricaoCor: "Branco",
+
     
             similares1: "../IMG/camisaFlamengo1.png",
             similares2: "../IMG/camisaArgentina1.png",
@@ -630,10 +619,6 @@ function carregamentoInicial(){
             camisaPreco: 299,
     
             descricaoTime: "Franca",
-            descricaoMarca: "Adidas",
-            descricaoMaterial: "Poliéster",
-            descricaoGarantia: "Contra defeito de fabricação",
-            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
@@ -660,10 +645,6 @@ function carregamentoInicial(){
             camisaPreco: 299,
     
             descricaoTime: "Franca2",
-            descricaoMarca: "Adidas",
-            descricaoMaterial: "Poliéster",
-            descricaoGarantia: "Contra defeito de fabricação",
-            descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
     
@@ -1242,7 +1223,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do milan",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Milan2",
             descricaoMarca: "Puma",
@@ -1456,8 +1437,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Corinthians",
             descricaoMarca: "Adidas",
@@ -1487,8 +1467,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Corinthians2",
             descricaoMarca: "Adidas",
@@ -1520,8 +1499,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Corinthians",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Corinthians3",
             descricaoMarca: "Adidas",
@@ -1550,10 +1528,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFlamengo1.png`,
     
             camisaNome: "Camisa do Flamengo",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Flamengo",
             descricaoMarca: "Adidas",
@@ -1581,10 +1557,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFlamengo2.png`,
     
             camisaNome: "Camisa do Flamengo",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Flamengo2",
             descricaoMarca: "Adidas",
@@ -1613,10 +1587,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFlamengo3.png`,
     
             camisaNome: "Camisa do Flamengo",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Flamengo3",
             descricaoMarca: "Adidas",
@@ -1644,8 +1616,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Fluminense",
             descricaoMarca: "nike",
@@ -1676,8 +1647,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Fluminense2",
             descricaoMarca: "Adidas",
@@ -1709,8 +1679,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Fluminense",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Fluminense3",
             descricaoMarca: "Adidas",
@@ -1739,10 +1708,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFortaleza1.png`,
     
             camisaNome: "Camisa do Fortaleza",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$159,99",
-            camisaPreco: "R$119,99",
+            camisaPreco: 119,
     
             descricaoTime: "Fortaleza",
             descricaoMarca: "Adidas",
@@ -1771,10 +1738,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFortaleza2.png`,
     
             camisaNome: "Camisa do Fortaleza",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$159,99",
-            camisaPreco: "R$119,99",
+            camisaPreco: 119,
     
             descricaoTime: "Fortaleza2",
             descricaoMarca: "Adidas",
@@ -1804,10 +1769,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFortaleza3.png`,
     
             camisaNome: "Camisa do Fortaleza",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$159,99",
-            camisaPreco: "R$119,99",
+            camisaPreco: 119,
     
             descricaoTime: "Fortaleza3",
             descricaoMarca: "Adidas",
@@ -1836,7 +1799,6 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPreco: "R$149,99",
     
             descricaoTime: "Internacional",
@@ -1867,8 +1829,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Internacional2",
             descricaoMarca: "Adidas",
@@ -1899,8 +1860,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Internacional3",
             descricaoMarca: "Adidas",
@@ -1928,10 +1888,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPalmeiras1.png`,
     
             camisaNome: "Camisa do Palmeiras",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Palmeiras",
             descricaoMarca: "Adidas",
@@ -1961,10 +1919,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPalmeiras2.png`,
     
             camisaNome: "Camisa do Palmeiras",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: "R$199,99",
+            camisaPreco: 199,
     
             descricaoTime: "Palmeiras2",
             descricaoMarca: "Adidas",
@@ -1995,10 +1951,8 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPalmeiras3.png`,
     
             camisaNome: "Camisa do Palmeiras",
-            camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPrecoCortado: "R$",
-            camisaPreco: "R$199,99",
+            camisaPrecoCortado: "",
+            camisaPreco: 199,
     
             descricaoTime: "Palmeiras3",
             descricaoMarca: "Adidas",
@@ -2028,8 +1982,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Santos",
             descricaoMarca: "Adidas",
@@ -2054,8 +2007,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Santos2",
             descricaoMarca: "Adidas",
@@ -2089,8 +2041,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Santos",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$179,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Santos3",
             descricaoMarca: "Adidas",
