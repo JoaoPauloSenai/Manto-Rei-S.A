@@ -229,6 +229,22 @@ function botaoAcionado(botao){
     
 }
 
+function pesquisaCamisa() {
+
+    let inputPesquisa = document.getElementById('pesquisa').value
+    inputPesquisa = inputPesquisa.toLowerCase();
+    let classCamisetas = document.getElementsByClassName('camisetas');
+      
+    for (i = 0; i < classCamisetas.length; i++) { 
+        if (!classCamisetas[i].innerHTML.toLowerCase().includes(inputPesquisa)) {
+            classCamisetas[i].style.display="none";
+        }
+        else {
+            classCamisetas[i].style.display="list-item";                 
+        }
+    }
+}
+
 
 function linkPaginaPrincipal(){
 
