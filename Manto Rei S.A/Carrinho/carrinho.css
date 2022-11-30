@@ -259,7 +259,7 @@ body{
 
 #fundo-carrinho{
 
-    height: 120%;
+    height: 135%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -268,17 +268,95 @@ body{
 
 }
 
-#carrinho{
+#div-carrinho{
     
     height: 90%;
     width: 93%;
     display: flex;
     background-color: rgb(221, 220, 220);
+    align-items: center;
+    flex-direction: column;
 }
 
+#compra{
 
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
 
+#compra2{
+    
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
 
+#compra3{
+
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra4{
+    
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra5{
+
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.nome-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.tamanho-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+
+}
+
+.valor-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+
+}
+
+#resultadoCompra{
+
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+
+}
 
 .divisoria-complemento{
 
