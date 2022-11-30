@@ -366,9 +366,21 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preco-real{
+
+    display: flex;
     font-size: 110%;
+
+}
+
+.dimunuir-riscado{
+
+    display: flex;
+    font-size: 80%;
 }
 
 #baixo{

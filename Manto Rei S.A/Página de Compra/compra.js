@@ -559,7 +559,11 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
+<<<<<<< HEAD
             camisaPreco: 249,
+=======
+            camisaPreco: "R$249,00",
+>>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
     
             descricaoTime: "Coreia2",
             descricaoMarca: "Adidas",
@@ -590,7 +594,11 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
+<<<<<<< HEAD
             camisaPreco: 249,
+=======
+            camisaPreco: "R$249,00",
+>>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
     
             descricaoTime: "coreia3",
             descricaoMarca: "Adidas",
@@ -2030,13 +2038,6 @@ function carregamentoInicial(){
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares2: "../IMG/camisaCorinthians1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            similares4: "../IMG/camisaPalmeiras1.png",
     
             variacao: 1
         }
