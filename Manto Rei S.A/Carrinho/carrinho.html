@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manto Rei</title>
+    <link rel="stylesheet" href="../HomePage/homePage.css">
+    <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body onload="compraEfetuada()">
+
+    <div id="container">
+
+        <div id="cima-preto">
+
+            <div id="logo">
+
+                <a id="a-img" href="../HomePage/HomePage.html">
+                    <img src="../IMG/logo-nova.png" id="icone-manto-rei">
+                </a>
+                    <label id="nome-logo" onclick="linkPaginaPrincipal()">Manto Rei</label>
+
+            </div>
+
+            <div id="barra-de-pesquisa">
+
+                <input id="pesquisa">
+                <img src="../IMG/Lupa.png" id="botao-pesquisa" onclick="salvaTime('Brasil')"> 
+                
+            </div>
+
+            <div id="login">
+
+                <div id="iconesLogin">
+
+                    <img id="prancheta" src="../IMG/download.png" onclick="linkCadastroProdutos()">
+                
+                
+                    <img id="login-imagem" src="../IMG/login_branco.png" onclick="linkLogin()">
+                
+                
+                    <img id="carrinho-imagem" src="../IMG/carrinho_branco.png" onclick="linkCarrinho()">
+
+                </div>    
+
+                <div id="nomeUsuario">
+
+                </div>
+
+        </div>
+
+        </div>
+
+        <div class="dp-menu">
+
+            <ul>
+    
+                <li><a href="#">Seleções</a>
+                    <ul>
+
+                        <li><a href="#" onclick="salvaTime('Alemanha')">Alemanha</a></li>
+                        <li><a href="#" onclick="salvaTime('Argentina')">Argentina</a></li>
+                        <li><a href="#" onclick="salvaTime('Brasil')">Brasil</a></li>
+                        <li><a href="#" onclick="salvaTime('Coreia')">Coreia do Sul</a></li>
+                        <li><a href="#" onclick="salvaTime('Franca')">França</a></li>
+                        <li><a href="#" onclick="salvaTime('Holanda')">Holanda</a></li>
+                        <li><a href="#" onclick="salvaTime('Portugal')">Portugal</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Internacionais</a>
+                    <ul>
+
+                        <li><a href="#" onclick="salvaTime('Barcelona')">Barcelona</a></li>
+                        <li><a href="#" onclick="salvaTime('Borussia')">Borussia Dortmund</a></li>
+                        <li><a href="#" onclick="salvaTime('Liverpool')">Liverpool</a></li>
+                        <li><a href="#" onclick="salvaTime('ManchesterCity')">Manchester City</a></li>
+                        <li><a href="#" onclick="salvaTime('Milan')">Milan</a></li>
+                        <li><a href="#" onclick="salvaTime('PSG')">PSG</a></li>
+                        <li><a href="#" onclick="salvaTime('RealMadrid')">Real Madrid</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Brasileiros</a>
+                    <ul>
+
+                        <li><a href="#" onclick="salvaTime('Corinthians')">Corinthians</a></li>
+                        <li><a href="#" onclick="salvaTime('Flamengo')">Flamengo</a></li>
+                        <li><a href="#" onclick="salvaTime('Fluminense')">Fluminense</a></li>
+                        <li><a href="#" onclick="salvaTime('Fortaleza')">Fortaleza</a></li>
+                        <li><a href="#" onclick="salvaTime('Internacional')">Internacional</a></li>
+                        <li><a href="#" onclick="salvaTime('Palmeiras')">Palmeiras</a></li>
+                        <li><a href="#" onclick="salvaTime('Santos')">Santos</a></li>
+
+                    </ul>
+                </li>
+    
+        </div>
+
+        <img src="" >
+
+        <div id="fundo-carrinho">
+
+            <div id="div-carrinho">
+
+                <div id="compra">
+
+                    <div class="img-compra" id="compra-img">
+
+                        <img class="miniaturas-img" id="img-miniatura-compra" src="">                        
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor">
+
+                    </div>
+        
+                </div>
+
+                <div id="compra2">
+
+                    <div class="img-compra" id="compra-img2">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome2">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho2">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor2">
+
+                    </div>
+
+                </div>
+
+                <div id="compra3">
+
+                    <div class="img-compra" id="compra-img3">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome3">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho3">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor3">
+
+                    </div>
+
+                </div>
+
+                <div id="compra4">
+
+                    <div class="img-compra" id="compra-img4">
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome4">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho4">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor4">
+
+                    </div>
+
+                </div>
+
+ 
+                <div id="compra5">
+
+                    <div class="img-compra" id="compra-img5"> 
+
+                    </div>
+
+                    <div class="nome-compra" id="compra-nome5">
+
+                    </div>
+
+                    <div class="tamanho-compra" id="compra-tamanho5">
+
+                    </div>
+
+                    <div class="valor-compra" id="compra-valor5">
+
+                    </div>
+
+                </div>
+
+                <div id="resultadoCompra">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="divisoria-complemento">
+
+            <div class="divisoria">
+                
+            </div>
+
+        </div>
+
+        <div id="sugestoes">
+
+            <label class="lbProdutos">Mais vendidas</label>
+
+            <div id="maisVendidas">
+
+                <div class="mais-vendidas">
+                
+                    <img class="img-produtos" src="../IMG/camisaHolanda3.png">
+
+                    <div class="divisoria-produtos"></div>
+                    
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaRealMadrid1.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaFlamengo1.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+                <div class="mais-vendidas">
+
+                    <img class="img-produtos" src="../IMG/camisaLiverpool1.png">
+
+                    <div class="divisoria-produtos"></div>
+
+                    <div class="descricao-produto">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="baixo">
+
+            
+        </div>
+
+        <script src="../Página de Compra/compra.js"></script>
+        <script src="../Carrinho/carrinho.js"></script>
+
+    </div>
+
+</body>
+
+</html>

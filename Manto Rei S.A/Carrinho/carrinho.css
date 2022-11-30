@@ -17,6 +17,7 @@ body{
 #container{
 
     height: 100%;
+    width: 100%;
     background-color: rgb(132, 0, 255); 
 
 }
@@ -41,12 +42,11 @@ body{
 }
 
 #a-img{
-    
+
     height: 85%; 
     width: 55%; 
     margin-left: 20%;
 }
-
 
 #icone-manto-rei{
     
@@ -87,7 +87,6 @@ body{
     padding-left: 2%;
 
 }
-
 #pesquisa:focus{
 
     outline: none;
@@ -100,6 +99,7 @@ body{
     margin-left: -5%;
     cursor: pointer;
 }
+
 
 #login{
 
@@ -151,10 +151,11 @@ body{
     height: 20%;
     width: 100%;
     display: flex;
-    
+
     color: aliceblue;
     font-size: 200%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .dp-menu{
@@ -223,18 +224,6 @@ body{
     
 }
 
-#div-propaganda{
-
-    height: 75%;
-    width: 100%;
-}
-
-#img-propaganda{
-
-    height: 100%;
-    width: 100%;
-}
-
 #selecao{
 
     height: 100%;
@@ -268,6 +257,129 @@ body{
 
 }
 
+#fundo-carrinho{
+
+    height: 135%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+
+}
+
+#div-carrinho{
+    
+    height: 90%;
+    width: 93%;
+    display: flex;
+    background-color: rgb(221, 220, 220);
+    align-items: center;
+    flex-direction: column;
+}
+
+#compra{
+
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra2{
+    
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra3{
+
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra4{
+    
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+}
+
+#compra5{
+
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.nome-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.tamanho-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+
+}
+
+.valor-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+
+}
+
+#resultadoCompra{
+
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.divisoria-complemento{
+
+    height: 0.1%;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.divisoria{
+
+    height: 100%;
+    background-color: black;
+    width: 96%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5%;
+    margin-top: 7%
+}
 
 .lbProdutos{
 
@@ -278,12 +390,12 @@ body{
     font-weight: bold;
     align-items: center;
     margin-right: 55%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #sugestoes{
 
-    height: 300%;
+    height: 100%;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
@@ -301,53 +413,28 @@ body{
     margin-left: 5%;
 }
 
-.maisVendidas{
+#maisVendidas{
 
-    height: 40%;
+    height: 60%;
     width: 90%;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 1%;
     
 }
 
 .mais-vendidas{
-
-    height: 88%;
-    width: 20%;
-    background-color: rgb(221, 220, 220);
-    margin-top: 2%;
-
-}
-.mais-vendidas:hover{
-
-    scale: 105%;
-}
-
-#mesmaMarca{
-
-    height: 33%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-
-.mesma-marca{
 
     height: 100%;
     width: 20%;
     background-color: rgb(221, 220, 220);
 
 }
-
-.mesma-marca:hover{
+.mais-vendidas:hover{
 
     scale: 105%;
+    
 }
 
 .img-produtos{
@@ -364,23 +451,6 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-weight: bolder;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.preco-real{
-
-    display: flex;
-    font-size: 110%;
-
-}
-
-.dimunuir-riscado{
-
-    display: flex;
-    font-size: 80%;
 }
 
 #baixo{
@@ -388,4 +458,5 @@ body{
     height: 30%;
     width: 100%;
     background-color: rgb(132, 0, 255);
+    
 }

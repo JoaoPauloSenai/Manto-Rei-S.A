@@ -1,70 +1,40 @@
-let miniaturaUm = document.getElementById("miniatura1") 
-let miniaturaDois = document.getElementById("miniatura2") 
-let miniaturaTres = document.getElementById("miniatura3") 
-let principalImg = document.getElementById("img-principal")
-
-let camisaNome = document.getElementById("nome-camisa")
-let camisaPrecoCortado = document.getElementById("preco-camisa-cortado")
-let camisaPreco = document.getElementById("preco-camisa")
-let descricaoTime = document.getElementById("descricao-time")
-let descricaoMarca = document.getElementById("marca")
-let descricaoMaterial = document.getElementById("material")
-let descricaoGarantia = document.getElementById("garantia")
-let descricaoPatrocinio = document.getElementById("patrocinio")
-let descricaoCor = document.getElementById("cor-predominante")
-
-let similares1 = document.getElementById("produtos-similares-um")
-let similares2 = document.getElementById("produtos-similares-dois")
-let similares3 = document.getElementById("produtos-similares-tres")
-let similares4 = document.getElementById("produtos-similares-quatro")
-
-let botaoP = document.getElementById("btP")
-let botaoM = document.getElementById("btM")
-let botaoG = document.getElementById("btG")
-let botao
-let addBotao
-
-let compras = []
-
-let time
-let clube
-let addVariacao
-let addCamisa
-let addPreco
-let vetorVariacaoCamisa = []
-let camisas = []
-let camisaNaTela = null
-
-const imgs = ["../IMG/propaganda2.png", "../IMG/propaganda3.png", "../IMG/propaganda.png"]
-
-let divCarro = document.getElementById("img-propaganda") 
-let i = 0 
-let interval = setInterval(function(){
-if(i <= imgs.length - 1){
-    divCarro.src = imgs[i]
-    i++;
-}
-else{
-    i = 0
-}
-},6000);
-
-carregamentoInicial()
+let comprasCarrinho = []
+let divTamanho = 0
 
 
-function efetuarCompra(){
+let imagemCompra = document.getElementById("img-miniatura-compra")
+let nomeCompra = document.getElementById("compra-nome")
+let tamanhoCompra = document.getElementById("compra-tamanho")
+let valorCompra = document.getElementById("compra-valor")
+let imagemCompra2 = document.getElementById("compra-img2")
+let nomeCompra2 = document.getElementById("compra-nome2")
+let tamanhoCompra2 = document.getElementById("compra-tamanho2")
+let valorCompra2 = document.getElementById("compra-valor2")
+let imagemCompra3 = document.getElementById("compra-img3")
+let nomeCompra3 = document.getElementById("compra-nome3")
+let tamanhoCompra3 = document.getElementById("compra-tamanho3")
+let valorCompra3 = document.getElementById("compra-valor3")
+let imagemCompra4 = document.getElementById("compra-img4")
+let nomeCompra4 = document.getElementById("compra-nome4")
+let tamanhoCompra4 = document.getElementById("compra-tamanho4")
+let valorCompra4 = document.getElementById("compra-valor4")
+let imagemCompra5 = document.getElementById("compra-img5")
+let nomeCompra5 = document.getElementById("compra-nome5")
+let tamanhoCompra5 = document.getElementById("compra-tamanho5")
+let valorCompra5 = document.getElementById("compra-valor5")
+
+let lista = ""
+
+
+
 
     comprasCarrinho = JSON.parse(localStorage.getItem("COMPRA"))
     if(comprasCarrinho == null){
 
         comprasCarrinho = []
+
     }
 
-    addBotao = JSON.parse(localStorage.getItem("Tamanho"))
-    time = JSON.parse(localStorage.getItem("Camisa"))
-    addVariacao = JSON.parse(localStorage.getItem("VariacaoDaCamisa"))
-    addPreco = JSON.parse(localStorage.getItem("Preco"))
-    
     let carrinho = {
 
         camisaObjeto: "",
@@ -72,203 +42,91 @@ function efetuarCompra(){
         tamanhoObjeto: "",
         valorObjeto: ""
     }
-    
-    carrinho.tamanhoObjeto = addBotao
-    carrinho.camisaObjeto = time
-    carrinho.variacaoObjeto = addVariacao
-    carrinho.valorObjeto = addPreco
 
-    
-    comprasCarrinho.push(carrinho)
-    
-    
-    localStorage.setItem("COMPRA", JSON.stringify(comprasCarrinho))
-}
 
-function mudarVariacao(nova){
-    camisas[camisaNaTela].variacao = nova;
-    localStorage.setItem("VariacaoDaCamisa", JSON.stringify(nova))
-    // colocar a camisa 
-    principalImg.src = `../IMG/camisa${camisas[camisaNaTela].descricaoTime}${nova}.png`
 
     
 
-    botaoP.style.backgroundColor = "#ffffff"
-    botaoM.style.backgroundColor = "#ffffff"
-    botaoG.style.backgroundColor = "#ffffff"
+function compraEfetuada(){
+        
+let algum
+
+vetorCamisa = []
+vetorVariacao = []
+vetorTamanho = []
+vetorValor = []
     
+        for (i=0; i < comprasCarrinho.length; i++) {
 
-}
+            vetorCamisa.push(comprasCarrinho[i].camisaObjeto)
+            vetorVariacao.push(comprasCarrinho[i].variacaoObjeto)
+            vetorTamanho.push(comprasCarrinho[i].tamanhoObjeto)
+            vetorValor.push(comprasCarrinho[i].valorObjeto)
 
-function salvaTime(time){
+            
 
-    localStorage.setItem("Camisa", JSON.stringify(time))
-    clube = time
-    localStorage.setItem("Camisa", JSON.stringify(clube))
-    addCamisa = time
-    
-    
-    window.location.href="../Página de Compra/compra.html"
-}
-
-
-function puxaCamisa(){
-    
-    botaoP.style.backgroundColor = "#ffffff"
-    botaoM.style.backgroundColor = "#ffffff"
-    botaoG.style.backgroundColor = "#ffffff"
-    
-    clube = JSON.parse(localStorage.getItem("Camisa"))
-    time = clube
-    
-    addVariacao = JSON.parse(localStorage.getItem("VariacaoDaCamisa"))
-    if(addVariacao == null){
-
-        addVariacao = 1
-        localStorage.setItem("VariacaoDaCamisa", JSON.stringify(addVariacao))
-    }else{
-        addVariacao = 1
-        localStorage.setItem("VariacaoDaCamisa", JSON.stringify(addVariacao))
-    }
-
-    for(i=0; i<camisas.length; i++){
+        }
 
         
-        if(camisas[i].descricaoTime == clube){
-
-            camisaNaTela = i
+        
+        for (i=0; i < comprasCarrinho.length; i++) {
             
-            miniaturaUm.src = camisas[i].miniaturaUm
-            miniaturaDois.src = camisas[i].miniaturaDois
-            miniaturaTres.src = camisas[i].miniaturaTres
-            principalImg.src = camisas[i].principalImg
-            
-            camisaNome.innerHTML = camisas[i].camisaNome
-            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
-            camisaPreco.innerHTML = camisas[i].camisaPreco
-            addPreco = camisas[i].camisaPreco
-            localStorage.setItem("Preco", JSON.stringify(addPreco))
 
-            descricaoTime.innerHTML = camisas[i].descricaoTime
-            descricaoMarca.innerHTML = camisas[i].descricaoMarca
-            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
+           switch(i) {
 
-            similares1.src = "../IMG/camisaFlamengo1.png"
-            similares2.src = "../IMG/camisaArgentina1.png"
-            similares3.src = "../IMG/camisaInternacional1.png"
-            similares4.src = "../IMG/camisaArgentina3.png"
+                case 0:
+                    
+                    nomeCompra.innerHTML = vetorCamisa[i]
+                    tamanhoCompra.innerHTML = vetorTamanho[i]
+                    valorCompra.innerHTML = vetorValor[i] + vetorValor[i]
+
+                
+                    for ( j = 0; j < camisas.length; j++) {
+                        
+                        if(vetorCamisa[i] == camisas[j].descricaoTime){
+
+                            imagemCompra.src = camisas[j].miniaturaUm
+                            
+                        }
+                    }
+            break
+
+                case 1:
+                    
+                    nomeCompra2.innerHTML = vetorCamisa[i]
+                    tamanhoCompra2.innerHTML = vetorTamanho[i]
+                    valorCompra2.innerHTML = vetorValor[i]
+           
+                    break
+                case 2:
+                    
+                    nomeCompra3.innerHTML = vetorCamisa[i]
+                    tamanhoCompra3.innerHTML = vetorTamanho[i]
+                    valorCompra3.innerHTML = vetorValor[i]
+
+                    break
+                case 3:
+                   
+                    nomeCompra4.innerHTML = vetorCamisa[i]
+                    tamanhoCompra4.innerHTML = vetorTamanho[i]
+                    valorCompra4.innerHTML = vetorValor[i]
+                    break
+                case 4:
+                    
+                    nomeCompra5.innerHTML = vetorCamisa[i]
+                    tamanhoCompra5.innerHTML = vetorTamanho[i]
+                    valorCompra5.innerHTML = vetorValor[i]
+                    break
+           }
         }
-    }
-    
-}
 
-function carregarCamisa(time){
-    
-    botaoP.style.backgroundColor = "#ffffff"
-    botaoM.style.backgroundColor = "#ffffff"
-    botaoG.style.backgroundColor = "#ffffff"
-
-    localStorage.setItem("Camisa", JSON.stringify(time))
-    clube = time
-    localStorage.setItem("Camisa", JSON.stringify(clube))
-    
-    addVariacao = JSON.parse(localStorage.getItem("VariacaoDaCamisa"))
-    if(addVariacao == null){
-
-        addVariacao = 1
-        localStorage.setItem("VariacaoDaCamisa", JSON.stringify(addVariacao))
-    }else{
-        addVariacao = 1
-        localStorage.setItem("VariacaoDaCamisa", JSON.stringify(addVariacao))
-    }
-
-    for(i=0; i<camisas.length; i++){
 
         
-        if(camisas[i].descricaoTime == time){
-
-            camisaNaTela = i
-            
-            miniaturaUm.src = camisas[i].miniaturaUm
-            miniaturaDois.src = camisas[i].miniaturaDois
-            miniaturaTres.src = camisas[i].miniaturaTres
-            principalImg.src = camisas[i].principalImg
-            
-            camisaNome.innerHTML = camisas[i].camisaNome
-            camisaPrecoCortado.innerHTML = camisas[i].camisaPrecoCortado
-            camisaPreco.innerHTML = camisas[i].camisaPreco
-            addPreco = camisas[i].camisaPreco
-            localStorage.setItem("Preco", JSON.stringify(addPreco))
-            
-            descricaoTime.innerHTML = camisas[i].descricaoTime
-            descricaoMarca.innerHTML = camisas[i].descricaoMarca
-            descricaoPatrocinio.innerHTML = camisas[i].descricaoPatrocinio
-
-            similares1.src = "../IMG/camisaFlamengo1.png"
-            similares2.src = "../IMG/camisaArgentina1.png"
-            similares3.src = "../IMG/camisaInternacional1.png"
-            similares4.src = "../IMG/camisaArgentina3.png"
-
-            
-        }
-    }
-    
-    
-}
-
-function botaoAcionado(botao){
-
-    if(botao == "Tamanho P"){
-
-        botaoP.style.backgroundColor = "#808080"
-        botaoM.style.backgroundColor = "#ffffff"
-        botaoG.style.backgroundColor = "#ffffff"
-        localStorage.setItem("Tamanho", JSON.stringify(botao))
-    }
-
-    if(botao == "Tamanho M"){
-
-        botaoP.style.backgroundColor = "#ffffff"
-        botaoM.style.backgroundColor = "#808080"
-        botaoG.style.backgroundColor = "#ffffff"
-        localStorage.setItem("Tamanho", JSON.stringify(botao))
-    }
-
-    if(botao == "Tamanho G"){
-
-        botaoP.style.backgroundColor = "#ffffff"
-        botaoM.style.backgroundColor = "#ffffff"
-        botaoG.style.backgroundColor = "#808080"
-        localStorage.setItem("Tamanho", JSON.stringify(botao))
-    }
-
-    
 }
 
 
-function linkPaginaPrincipal(){
 
-    window.location.href = "../HomePage/HomePage.html"
 
-}
-
-function linkCadastroProdutos(){
-
-    window.location.href = "../CadastroProdutos/CadastroProdutos.html"
-
-}
-
-function linkLogin(){
-
-    window.location.href = "../Login/Login.html"
-
-}
-
-function linkCarrinho(){
-
-    window.location.href = "../Carrinho/carrinho.html"
-
-}
 function carregamentoInicial(){
 
     let alemanha = { 
@@ -280,7 +138,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "R$349,00",
-        camisaPreco: 349,
+        camisaPreco: "R$299,99",
 
         descricaoTime: "Alemanha",
         descricaoMarca: "Adidas",
@@ -308,7 +166,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "",
-        camisaPreco: 349,
+        camisaPreco: "R$159,99",
 
         descricaoTime: "Alemanha2",
         descricaoMarca: "Adidas",
@@ -338,7 +196,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "",
-        camisaPreco: 349,
+        camisaPreco: "R$349,00",
 
         descricaoTime: "Alemanha3",
         descricaoMarca: "Adidas",
@@ -367,7 +225,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Argentina",
         camisaPrecoCortado: "R$349,99",
-        camisaPreco: 299,
+        camisaPreco: "R$299,99",
 
         descricaoTime: "Argentina",
         descricaoMarca: "Adidas",
@@ -392,7 +250,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Argentina",
             camisaPrecoCortado: "R$349,99",
-            camisaPreco: 299,
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Argentina2",
             descricaoMarca: "Adidas",
@@ -417,7 +275,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Argentina",
             camisaPrecoCortado: "349,00",
-            camisaPreco: 299,
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Argentina3",
             descricaoMarca: "Adidas",
@@ -442,7 +300,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Brasil",
             camisaPrecoCortado: "R$400,00",
-            camisaPreco: 359,
+            camisaPreco: "R$359,99",
     
             descricaoTime: "Brasil",
             descricaoMarca: "Nike",
@@ -471,7 +329,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Brasil",
             camisaPrecoCortado: "R$400,00",
-            camisaPreco: 359,
+            camisaPreco: "R$359,99",
     
             descricaoTime: "Brasil2",
             descricaoMarca: "Nike",
@@ -501,7 +359,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Brasil",
             camisaPrecoCortado: "R$280,00",
-            camisaPreco: 359,
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Brasil3",
             descricaoMarca: "Nike",
@@ -529,7 +387,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-            camisaPreco: 249,
+            camisaPreco: "R$249,00",
     
             descricaoTime: "Coreia",
             descricaoMarca: "Adidas",
@@ -559,11 +417,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-<<<<<<< HEAD
-            camisaPreco: 249,
-=======
-            camisaPreco: "R$249,00",
->>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
+            camisaPreco: "R$240,00",
     
             descricaoTime: "Coreia2",
             descricaoMarca: "Adidas",
@@ -594,11 +448,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa da Coreia do Sul",
             camisaPrecoCortado: "",
-<<<<<<< HEAD
-            camisaPreco: 249,
-=======
-            camisaPreco: "R$249,00",
->>>>>>> acfaf1bce2cb673acb3cb6f843d1b03f4567610b
+            camisaPreco: "R$240,00",
     
             descricaoTime: "coreia3",
             descricaoMarca: "Adidas",
@@ -626,8 +476,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFranca1.png`,
     
             camisaNome: "Camisa da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$349,99",
-            camisaPreco: 299,
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca",
             descricaoMarca: "Adidas",
@@ -656,8 +508,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFranca2.png`,
     
             camisaNome: "Camisa da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$349,99",
-            camisaPreco: 299,
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca2",
             descricaoMarca: "Adidas",
@@ -687,8 +541,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaFranca3.png`,
     
             camisaNome: "Camisa da França",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$349,99",
-            camisaPreco: 299,
+            camisaPreco: "R$299,99",
     
             descricaoTime: "Franca3",
             descricaoMarca: "Adidas",
@@ -716,8 +572,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaHolanda1.png`,
     
             camisaNome: "Camisa da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda",
             descricaoMarca: "Adidas",
@@ -746,8 +604,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaHolanda2.png`,
     
             camisaNome: "Camisa da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda2",
             descricaoMarca: "Adidas",
@@ -777,8 +637,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaHolanda3.png`,
     
             camisaNome: "Camisa da Holanda",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
     
             descricaoTime: "Holanda3",
             descricaoMarca: "Adidas",
@@ -808,8 +670,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPortugal1.png`,
 
             camisaNome: "Camisa de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal",
             descricaoMarca: "Adidas",
@@ -838,8 +702,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPortugal2.png`,
 
             camisaNome: "Camisa de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal2",
             descricaoMarca: "Adidas",
@@ -869,8 +735,10 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPortugal3.png`,
 
             camisaNome: "Camisa de Portugal",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$299,99",
-            camisaPreco: 249,
+            camisaPreco: "R$249,99",
 
             descricaoTime: "Portugal3",
             descricaoMarca: "Adidas",
@@ -900,7 +768,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona",
             descricaoMarca: "Nike",
@@ -926,7 +794,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona2",
             descricaoMarca: "Nike",
@@ -953,7 +821,7 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Barcelona",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Barcelona3",
             descricaoMarca: "Nike",
@@ -979,9 +847,14 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Borussia",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 179,
+            camisaPreco: "R$179,99",
     
             descricaoTime: "Borussia",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
     
@@ -1005,9 +878,14 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Borussia",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 179,
+            camisaPreco: "R$179,99",
     
             descricaoTime: "Borussia2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
     
@@ -1019,7 +897,7 @@ function carregamentoInicial(){
             variacao: 2
         }
     
-            camisas.push(borussia2)
+            camisas.push(barcelona2)
         
         
         
@@ -1032,9 +910,14 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Borussia",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 179,
+            camisaPreco: "R$179,99",
     
             descricaoTime: "Borussia3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
     
@@ -1057,10 +940,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaLiverpool1.png`,
 
             camisaNome: "Camisa do Liverpool",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
 
             descricaoTime: "Liverpool",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
 
@@ -1084,9 +974,14 @@ function carregamentoInicial(){
 
             camisaNome: "Camisa do Liverpool",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 199,
+            camisaPreco: "R$179,99",
 
             descricaoTime: "Liverpool2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
 
@@ -1111,9 +1006,14 @@ function carregamentoInicial(){
 
             camisaNome: "Camisa do Liverpool",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 199,
+            camisaPreco: "R$179,99",
 
             descricaoTime: "Livepool3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
 
@@ -1135,10 +1035,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaManCity1.png`,
     
             camisaNome: "Camisa do Manchester City",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
     
@@ -1161,10 +1068,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaManCity2.png`,
     
             camisaNome: "Camisa do ManchesterCity",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
     
@@ -1188,10 +1102,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaManCity3.png`,
     
             camisaNome: "Camisa do ManchesterCity",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "ManchesterCity3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
     
@@ -1214,10 +1135,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaMilan1.png`,
     
             camisaNome: "Camisa do milan",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Milan",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
     
@@ -1241,10 +1169,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaMilan2.png`,
     
             camisaNome: "Camisa do milan",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "",
             camisaPreco: "R$199,99",
     
             descricaoTime: "Milan2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
     
@@ -1268,11 +1203,19 @@ function carregamentoInicial(){
             miniaturaTres: `../IMG/camisaMilan3.png`,        
             principalImg: `../IMG/camisaMilan3.png`,
     
+            camisaNome: "Camisa do milan",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaNome: "Camisa do Milan",
             camisaPrecoCortado: "",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "Milan3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
     
@@ -1297,10 +1240,17 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaPSG1.png`,
 
             camisaNome: "Camisa do PSG",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
 
             descricaoTime: "PSG",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Branco",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
@@ -1324,9 +1274,14 @@ function carregamentoInicial(){
 
             camisaNome: "Camisa do PSG",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 199,
+            camisaPreco: "R$179,99",
 
             descricaoTime: "PSG2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Preto",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
@@ -1351,9 +1306,14 @@ function carregamentoInicial(){
 
             camisaNome: "Camisa do PSG",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: 199,
+            camisaPreco: "R$179,99",
 
             descricaoTime: "PSG3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
+            descricaoCor: "Vinho",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
@@ -1376,10 +1336,16 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaRealMadrid1.png`,
     
             camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
             descricaoPatrocinio: "Emirates",
     
@@ -1402,10 +1368,16 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaRealMadrid2.png`,
     
             camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid2",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
             descricaoPatrocinio: "Emirates",
     
@@ -1429,10 +1401,16 @@ function carregamentoInicial(){
             principalImg: `../IMG/camisaRealMadrid3.png`,
     
             camisaNome: "Camisa do Real Madrid",
+            camisaPrecoCortado: "R$199,99",
+            camisaPreco: "R$179,99",
             camisaPrecoCortado: "R$249,99",
-            camisaPreco: 199,
+            camisaPreco: "R$199,99",
     
             descricaoTime: "RealMadrid3",
+            descricaoMarca: "Adidas",
+            descricaoMaterial: "Poliéster",
+            descricaoGarantia: "Contra defeito de fabricação",
+            descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
             descricaoPatrocinio: "Emirates",
     
@@ -2038,6 +2016,13 @@ function carregamentoInicial(){
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
+    
+            similares1: "../IMG/camisaFlamengo1.png",
+            similares2: "../IMG/camisaArgentina1.png",
+            similares2: "../IMG/camisaCorinthians1.png",
+            similares3: "../IMG/camisaInternacional1.png",
+            similares4: "../IMG/camisaArgentina3.png",
+            similares4: "../IMG/camisaPalmeiras1.png",
     
             variacao: 1
         }
