@@ -83,6 +83,8 @@ function efetuarCompra(){
     
     
     localStorage.setItem("COMPRA", JSON.stringify(comprasCarrinho))
+
+    alert("Compra Efetuada")
 }
 
 function mudarVariacao(nova){

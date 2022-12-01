@@ -27,9 +27,35 @@
 
             <div id="barra-de-pesquisa">
 
-                <input type="search" id="pesquisa">
+                <input type="search" id="pesquisa" placeholder="Pesquisar..." onkeyup="pesquisaCamisa()" list="historico" >
 
-                <img src="../IMG/Lupa.png" id="botao-pesquisa" onclick="salvaTime('Brasil')"> 
+                <datalist id="historico">
+
+                    <option value="Alemanha" onclick="salvaTime('Alemanha')"></option>
+                    <option value="Argentina" onclick="salvaTime('Argentina')"></option>
+                    <option value="Barcelona" onclick="salvaTime('Barcelona')"></option>
+                    <option value="Borussia" onclick="salvaTime('Borussia')"></option>
+                    <option value="Brasil" onclick="salvaTime('Brasil')"></option>
+                    <option value="Coreia do Sul" onclick="salvaTime('Coreia')"></option>
+                    <option value="Corinthians" onclick="salvaTime('Corinthians')"></option>
+                    <option value="Flamengo" onclick="salvaTime('Flamengo')"></option>
+                    <option value="Fluminense" onclick="salvaTime('Fluminense')"></option>
+                    <option value="Fortaleza" onclick="salvaTime('Fortaleza')"></option>
+                    <option value="França" onclick="salvaTime('Franca')"></option>
+                    <option value="Holanda" onclick="salvaTime('Holanda')"></option>
+                    <option value="Internacional" onclick="salvaTime('Internacional')"></option>
+                    <option value="Liverpool" onclick="salvaTime('Liverpool')"></option>
+                    <option value="Manchester City" onclick="salvaTime('ManchesterCity')"></option>
+                    <option value="Milan" onclick="salvaTime('Milan')"></option>
+                    <option value="Palmeiras" onclick="salvaTime('Palmeiras')"></option>
+                    <option value="Portugal" onclick="salvaTime('Portugal')"></option>
+                    <option value="PSG" onclick="salvaTime('PSG')"></option>
+                    <option value="Real Madrid" onclick="salvaTime('RealMadrid')"></option>
+                    <option value="Santos" onclick="salvaTime('Santos')"></option>
+
+                </datalist>
+
+                <img src="../IMG/Lupa.png" id="botao-pesquisa" onclick="salvaTime('Liverpool')"> 
                 
             </div>
 
@@ -362,7 +388,7 @@
             <div class="divs-baixo">
 
                 <img class="img-baixo" src="../IMG/Frete.png">
-                <label class="label-negrito">Frete Gratis</label>
+                <label class="label-negrito">Frete Grátis</label>
                 <label class="label-normal">Para todo o Brasil</label>
 
             </div>
@@ -372,8 +398,8 @@
             <div class="divs-baixo">
 
                 <img class="img-baixo" src="../IMG/Cartão 2.png">
-                <label class="label-negrito">Em Ate 10X sem Juros</label>
-                <label class="label-normal">No cartao de Credito</label>
+                <label class="label-negrito">Em Até 10X sem Juros</label>
+                <label class="label-normal">No cartão de Crédito</label>
 
             </div>
 
@@ -381,7 +407,7 @@
 
                 <img class="img-baixo" src="../IMG/Site Seguro.png">
                 <label class="label-negrito">Site Seguro</label>
-                <label class="label-normal">Seus Dados no Sigilo</label>
+                <label class="label-normal">Seus Dados Protegidos</label>
 
             </div>
             
