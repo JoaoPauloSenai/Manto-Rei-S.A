@@ -304,11 +304,6 @@ function carregamentoInicial(){
         descricaoPatrocinio: "Nenhum",
         descricaoCor: "Branco",
 
-        similares1: "../IMG/camisaFlamengo1.png",
-        similares2: "../IMG/camisaArgentina1.png",
-        similares3: "../IMG/camisaInternacional1.png",
-        similares4: "../IMG/camisaArgentina3.png",
-
         variacao: 1
     }
 
@@ -332,11 +327,6 @@ function carregamentoInicial(){
         descricaoGarantia: "Contra defeito de fabricação",
         descricaoPatrocinio: "Nenhum",
         descricaoCor: "Preto",
-
-        similares1: "../IMG/camisaFlamengo1.png",
-        similares2: "../IMG/camisaArgentina1.png",
-        similares3: "../IMG/camisaInternacional1.png",
-        similares4: "../IMG/camisaArgentina3.png",
         
         variacao: 2
     }
@@ -362,11 +352,6 @@ function carregamentoInicial(){
         descricaoGarantia: "Contra defeito de fabricação",
         descricaoPatrocinio: "Nenhum",
         descricaoCor: "Vinho",
-
-        similares1: "../IMG/camisaFlamengo1.png",
-        similares2: "../IMG/camisaArgentina1.png",
-        similares3: "../IMG/camisaInternacional1.png",
-        similares4: "../IMG/camisaArgentina3.png",
         
         variacao: 3
     }
@@ -388,11 +373,6 @@ function carregamentoInicial(){
         descricaoTime: "Argentina",
         descricaoMarca: "Adidas",
         descricaoPatrocinio: "Nenhum",
-
-        similares1: "../IMG/camisaFlamengo1.png",
-        similares2: "../IMG/camisaArgentina1.png",
-        similares3: "../IMG/camisaInternacional1.png",
-        similares4: "../IMG/camisaArgentina3.png",
         
         variacao: 1
     }
@@ -413,11 +393,6 @@ function carregamentoInicial(){
             descricaoTime: "Argentina2",
             descricaoMarca: "Adidas",
             descricaoPatrocinio: "Nenhum",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -438,11 +413,6 @@ function carregamentoInicial(){
             descricaoTime: "Argentina3",
             descricaoMarca: "Adidas",
             descricaoPatrocinio: "Nenhum",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -467,11 +437,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Amarelo",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -495,11 +460,6 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Azul",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -525,11 +485,6 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -550,12 +505,6 @@ function carregamentoInicial(){
             descricaoTime: "Coreia",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
-
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
     
             variacao: 1
         }
@@ -582,11 +531,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -611,12 +555,6 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
-
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -638,11 +576,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -663,11 +596,6 @@ function carregamentoInicial(){
             descricaoTime: "Franca2",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -694,11 +622,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -724,11 +647,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -753,11 +671,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -784,11 +697,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -816,11 +724,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
 
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-
             variacao: 1
         }
 
@@ -845,11 +748,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -876,11 +774,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -903,11 +796,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Spotify",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -928,11 +816,6 @@ function carregamentoInicial(){
             descricaoTime: "Barcelona2",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Spotify",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -955,11 +838,6 @@ function carregamentoInicial(){
             descricaoTime: "Barcelona3",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Spotify",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -982,11 +860,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1007,11 +880,6 @@ function carregamentoInicial(){
             descricaoTime: "Borussia2",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1034,11 +902,6 @@ function carregamentoInicial(){
             descricaoTime: "Borussia3",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "1&1",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1061,11 +924,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
 
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-
             variacao: 1
         }
 
@@ -1086,11 +944,6 @@ function carregamentoInicial(){
             descricaoTime: "Liverpool2",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
-
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1113,11 +966,6 @@ function carregamentoInicial(){
             descricaoTime: "Livepool3",
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Standard Chartered",
-
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1139,11 +987,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1164,11 +1007,6 @@ function carregamentoInicial(){
             descricaoTime: "ManchesterCity2",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1191,11 +1029,6 @@ function carregamentoInicial(){
             descricaoTime: "ManchesterCity3",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Etihad Airways",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1217,11 +1050,6 @@ function carregamentoInicial(){
             descricaoTime: "Milan",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
     
             variacao: 1
         }
@@ -1245,11 +1073,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            
             variacao: 2
         }
     
@@ -1273,11 +1096,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Emirates",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            
             variacao: 3
         }
     
@@ -1301,11 +1119,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-
             variacao: 1
         }
 
@@ -1327,11 +1140,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            
             variacao: 2
         }
 
@@ -1354,11 +1162,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Accor Live Limitless",
 
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            
             variacao: 3
         }
 
@@ -1380,11 +1183,6 @@ function carregamentoInicial(){
             descricaoCor: "Branco",
             descricaoPatrocinio: "Emirates",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1405,11 +1203,6 @@ function carregamentoInicial(){
             descricaoTime: "RealMadrid2",
             descricaoCor: "Preto",
             descricaoPatrocinio: "Emirates",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1432,11 +1225,6 @@ function carregamentoInicial(){
             descricaoTime: "RealMadrid3",
             descricaoCor: "Vinho",
             descricaoPatrocinio: "Emirates",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1463,11 +1251,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1492,12 +1275,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1524,11 +1301,6 @@ function carregamentoInicial(){
             descricaoMarca: "Nike",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1554,11 +1326,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1582,11 +1349,6 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1612,11 +1374,6 @@ function carregamentoInicial(){
             descricaoGarantia: "Contra defeito de fabricação",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1642,12 +1399,7 @@ function carregamentoInicial(){
             descricaoCor: "Branco",
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Betano",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
+
             variacao: 1
         }
     
@@ -1673,11 +1425,6 @@ function carregamentoInicial(){
             descricaoCor: "Preto",
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Betano",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1705,12 +1452,7 @@ function carregamentoInicial(){
             descricaoCor: "Vinho",
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Betano",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            
+
             variacao: 3
         }
     
@@ -1734,11 +1476,6 @@ function carregamentoInicial(){
             descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Branco",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
     
             variacao: 1
         }
@@ -1764,11 +1501,6 @@ function carregamentoInicial(){
             descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1795,11 +1527,6 @@ function carregamentoInicial(){
             descricaoMarca: "Leão 1918",
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Vinho",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1825,11 +1552,6 @@ function carregamentoInicial(){
             descricaoCor: "Branco",
             descricaoPatrocinio: "Banrisul",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-    
             variacao: 1
         }
     
@@ -1854,11 +1576,6 @@ function carregamentoInicial(){
             descricaoPatrocinio: "Nenhum",
             descricaoCor: "Preto",
             descricaoPatrocinio: "Banrisul",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1886,10 +1603,6 @@ function carregamentoInicial(){
             descricaoCor: "Vinho",
             descricaoPatrocinio: "Banrisul",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -1916,10 +1629,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Crefisa",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
     
             variacao: 1
         }
@@ -1946,11 +1655,6 @@ function carregamentoInicial(){
             descricaoCor: "Preto",
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Crefisa",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 2
         }
@@ -1979,10 +1683,6 @@ function carregamentoInicial(){
             descricaoMarca: "Puma",
             descricaoPatrocinio: "Crefisa",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
             
             variacao: 3
         }
@@ -2033,13 +1733,6 @@ function carregamentoInicial(){
             descricaoCor: "Preto",
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Sumup",
-    
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares2: "../IMG/camisaCorinthians1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            similares4: "../IMG/camisaPalmeiras1.png",
             
             variacao: 2
             
@@ -2068,12 +1761,6 @@ function carregamentoInicial(){
             descricaoMarca: "Umbro",
             descricaoPatrocinio: "Banco BMG",
     
-            similares1: "../IMG/camisaFlamengo1.png",
-            similares2: "../IMG/camisaArgentina1.png",
-            similares2: "../IMG/camisaCorinthians1.png",
-            similares3: "../IMG/camisaInternacional1.png",
-            similares4: "../IMG/camisaArgentina3.png",
-            similares4: "../IMG/camisaPalmeiras1.png",
             
             variacao: 3
         }
