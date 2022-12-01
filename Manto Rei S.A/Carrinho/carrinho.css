@@ -480,5 +480,62 @@ body{
     height: 30%;
     width: 100%;
     background-color: rgb(132, 0, 255);
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divs-baixo{
+
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div-senai{
+
+    height: 100%;
+    width: 25%;
+
+}
+
+.img-baixo{
+
+    margin-top: 12%;
+    height: 38%;
+    width: 22%;
+
+}
+
+.img-senai{
+
+    margin-top: 14%;
+    height: 45%;
+    width: 70%;
+
+}
+
+
+.label-negrito{
+
+    display: flex;
+    font-size: 110%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.label-normal{
+
+    display: flex;
+    font-size: 110%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
