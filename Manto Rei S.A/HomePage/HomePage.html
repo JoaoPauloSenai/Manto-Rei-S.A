@@ -27,29 +27,35 @@
 
             <div id="barra-de-pesquisa">
 
-                <input id="pesquisa" placeholder="Pesquisar..." onkeyup="pesquisaCamisa()">
+                <input type="search" id="pesquisa" placeholder="Pesquisar..." onkeyup="pesquisaCamisa()" list="historico" >
 
-                    <ol href="#" class="class-a">
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Alemanha')">Alemanha</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Argentina')">Argentina</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Barcelona')">Barcelona</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Borussia')">Borussia Dortmund</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Brasil')">Brasil</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Coreia')">Coreia do Sul</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Corinthians')" >Corinthians</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Flamengo')">Flamengo</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Fluminense')">Fluminense</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Fortaleza')">Fortaleza</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Franca')">França</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Holanda')">Holanda</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Liverpool')">Liverpool</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('ManchesterCity')">Manchester City</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Milan')">Milan</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Portugal')">Portugal</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('PSG')">PSG</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('RealMadrid')">Real Madrid</a></li>
-                        <li class='barra-pesquisa-li'><a class="camisetas" onclick="salvaTime('Santos')">Santos</a></li>
-                    </ol>
+                    <datalist id="historico">
+
+                        <option value="Alemanha" onclick="salvaTime('Alemanha')"></option>
+                        <option value="Argentina" onclick="salvaTime('Argentina')"></option>
+                        <option value="Barcelona" onclick="salvaTime('Barcelona')"></option>
+                        <option value="Borussia" onclick="salvaTime('Borussia')"></option>
+                        <option value="Brasil" onclick="salvaTime('Brasil')"></option>
+                        <option value="Coreia do Sul" onclick="salvaTime('Coreia')"></option>
+                        <option value="Corinthians" onclick="salvaTime('Corinthians')"></option>
+                        <option value="Flamengo" onclick="salvaTime('Flamengo')"></option>
+                        <option value="Fluminense" onclick="salvaTime('Fluminense')"></option>
+                        <option value="Fortaleza" onclick="salvaTime('Fortaleza')"></option>
+                        <option value="França" onclick="salvaTime('Franca')"></option>
+                        <option value="Holanda" onclick="salvaTime('Holanda')"></option>
+                        <option value="Internacional" onclick="salvaTime('Internacional')"></option>
+                        <option value="Liverpool" onclick="salvaTime('Liverpool')"></option>
+                        <option value="Manchester City" onclick="salvaTime('ManchesterCity')"></option>
+                        <option value="Milan" onclick="salvaTime('Milan')"></option>
+                        <option value="Palmeiras" onclick="salvaTime('Palmeiras')"></option>
+                        <option value="Portugal" onclick="salvaTime('Portugal')"></option>
+                        <option value="PSG" onclick="salvaTime('PSG')"></option>
+                        <option value="Real Madrid" onclick="salvaTime('RealMadrid')"></option>
+                        <option value="Santos" onclick="salvaTime('Santos')"></option>
+                        
+
+
+                    </datalist>
 
                 <img src="../IMG/Lupa.png" id="botao-pesquisa" onclick="salvaTime('Brasil')"> 
                 
@@ -183,7 +189,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaCoreia2.png" onclick="salvaTime('Coreia2')">
+                    <img class="img-produtos" src="../IMG/camisaCoreia1.png" onclick="salvaTime('Coreia')">
 
                     <div class="divisoria-produtos"></div>
 
@@ -233,7 +239,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaFranca3.png" onclick="salvaTime('Franca3')">
+                    <img class="img-produtos" src="../IMG/camisaFranca1.png" onclick="salvaTime('Franca')">
 
                     <div class="divisoria-produtos"></div>
 
@@ -248,7 +254,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaPortugal3.png" onclick="salvaTime('Portugal3')">
+                    <img class="img-produtos" src="../IMG/camisaPortugal1.png" onclick="salvaTime('Portugal')">
 
                     <div class="divisoria-produtos"></div>
 
@@ -269,7 +275,7 @@
 
                 <div class="mais-vendidas">
                 
-                    <img class="img-produtos" src="../IMG/camisaArgentina2.png" onclick="salvaTime('Argentina2')">
+                    <img class="img-produtos" src="../IMG/camisaArgentina1.png" onclick="salvaTime('Argentina')">
 
                     <div class="divisoria-produtos"></div>
                     
@@ -314,14 +320,15 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaFlamengo3.png" onclick="salvaTime('Flamengo3')">
+                    <img class="img-produtos" src="../IMG/camisaAlemanha1.png" onclick="salvaTime('Alemanha')">
 
                     <div class="divisoria-produtos"></div>
 
                     <div class="descricao-produto">
 
-                        <label class="preco-real">Camisa do Flamengo</label>
-                        <label class="preco-real">R$ 199,99</label>
+                        <label class="preco-real">Camisa da Alemanha</label>
+                        <s><label class="diminuir-riscado">R$ 349,99</label></s>
+                        <label class="preco-real">R$ 299,99</label>
                         
                     </div>
                 </div>
@@ -348,7 +355,7 @@
 
                 <div class="mais-vendidas">
 
-                    <img class="img-produtos" src="../IMG/camisaPalmeiras3.png" onclick="salvaTime('Palmeiras3')">
+                    <img class="img-produtos" src="../IMG/camisaPalmeiras1.png" onclick="salvaTime('Palmeiras')">
 
                     <div class="divisoria-produtos"></div>
 
@@ -431,7 +438,6 @@
 
     </div>
 
-        <script src="../Página de Compra/compra.js"></script>
 </body>
 
 </html>

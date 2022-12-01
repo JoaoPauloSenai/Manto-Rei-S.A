@@ -87,9 +87,11 @@ body{
     padding-left: 2%;
 
 }
+
 #pesquisa:focus{
 
     outline: none;
+    border: solid 2px #2f4550;
 }
 
 #botao-pesquisa{
