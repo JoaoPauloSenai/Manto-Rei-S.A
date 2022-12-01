@@ -259,7 +259,7 @@ body{
 
 #fundo-carrinho{
 
-    height: 135%;
+    height: 155%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -286,48 +286,93 @@ body{
     display: flex;
 }
 
+.img-compra{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
 #compra{
 
     width: 100%;
-    height: 21%;
+    height: 20%;
     display: flex;
     flex-direction: row;
+    
+    justify-content: center;
+}
+
+#compra-img{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #compra2{
     
     width: 100%;
-    height: 21%;
+    height: 20%;
     display: flex;
     flex-direction: row;
+}
+
+#compra-img2{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #compra3{
 
     width: 100%;
-    height: 21%;
+    height: 20%;
     display: flex;
     flex-direction: row;
+}
+
+#compra-img3{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #compra4{
     
     width: 100%;
-    height: 21%;
+    height: 20%;
     display: flex;
     flex-direction: row;
+}
+
+#compra-img4{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #compra5{
 
     width: 100%;
-    height: 21%;
+    height: 20%;
     display: flex;
     flex-direction: row;
     
 }
 
-.img-compra{
+#compra-img5{
 
     width: 25%;
     height: 100%;
@@ -340,7 +385,7 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
-
+    align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 180%;
     margin-left: 3%;
@@ -351,7 +396,7 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
-
+    align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 180%;
     margin-left: 3%;
@@ -363,7 +408,7 @@ body{
     width: 25%;
     height: 100%;
     display: flex;
-
+    align-items: center;
     font-size: 150%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -374,10 +419,49 @@ body{
 
     width: 100%;
     height: 15%;
+    margin-bottom: -5%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-valorCompra{
+
+    width: 100%;
+    height: 15%;
+    display: flex;
+    
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 
 }
+
+#valorCompra{
+
+    width: 30%;
+    height: 30%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#lbResultado{
+
+    width: 30%;
+    height: 30%;
+    display: flex;
+    font-size: 130%;
+    margin-left: 42%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: baseline;
+
+}
+
 
 .divisoria-complemento{
 

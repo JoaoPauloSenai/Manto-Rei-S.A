@@ -296,7 +296,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "R$349,00",
-        camisaPreco: 349,
+        camisaPreco: 249,
 
         descricaoTime: "Alemanha",
         descricaoMarca: "Adidas",
@@ -324,7 +324,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "",
-        camisaPreco: 349,
+        camisaPreco: 249,
 
         descricaoTime: "Alemanha2",
         descricaoMarca: "Adidas",
@@ -354,7 +354,7 @@ function carregamentoInicial(){
 
         camisaNome: "Camisa da Alemanha",
         camisaPrecoCortado: "",
-        camisaPreco: 349,
+        camisaPreco: 249,
 
         descricaoTime: "Alemanha3",
         descricaoMarca: "Adidas",
@@ -1815,14 +1815,10 @@ function carregamentoInicial(){
     
             camisaNome: "Camisa do Internacional",
             camisaPrecoCortado: "R$199,99",
-            camisaPreco: "R$149,99",
+            camisaPreco: 149,
     
             descricaoTime: "Internacional",
             descricaoMarca: "Adidas",
-            descricaoMaterial: "Poliéster",
-            descricaoGarantia: "Contra defeito de fabricação",
-            descricaoPatrocinio: "Nenhum",
-            descricaoCor: "Branco",
             descricaoPatrocinio: "Banrisul",
     
             similares1: "../IMG/camisaFlamengo1.png",
